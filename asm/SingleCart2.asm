@@ -15,8 +15,8 @@ mov    lr,pc                        ; 080FC144
 bx     r1                           ; 080FC148
 b      SingleCart_080FC11C          ; 080FC14C
 @@Pool:
-.word 0x03007E00
-.word 0x03007F80
+.d32 0x03007E00
+.d32 0x03007F80
 
 Code080FC158:
 mov    r12,0x04000000               ; 080FC158
@@ -46370,11 +46370,11 @@ ldr   r0,[r0]                       ; 08113ADA
 mov   pc,r0                         ; 08113ADC
 .pool                               ; 08113ADE
 
-.word 0x0201D1DC                    ; 08113AE4
-.word 0x0201D1F8                    ; 08113AE8
-.word 0x0201D208                    ; 08113AEC
-.word 0x0201D210                    ; 08113AF0
-.word 0x0201D21C                    ; 08113AF4
+.d32 0x0201D1DC                     ; 08113AE4
+.d32 0x0201D1F8                     ; 08113AE8
+.d32 0x0201D208                     ; 08113AEC
+.d32 0x0201D210                     ; 08113AF0
+.d32 0x0201D21C                     ; 08113AF4
 
 ldr   r1,=0x03000054                ; 08113AF8
 mov   r0,r4                         ; 08113AFA
@@ -47024,22 +47024,22 @@ ldr   r0,[r0]                       ; 08113FE8
 mov   pc,r0                         ; 08113FEA
 .pool                               ; 08113FEC
 
-.word 0x0201D82A, 0x0201D846, 0x0201D852, 0x0201D8A6
-.word 0x0201D8A6, 0x0201D836, 0x0201D8BA, 0x0201D8C4
-.word 0x0201D8CE, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D85E, 0x0201D876
-.word 0x0201D882, 0x0201D89A, 0x0201D8F4, 0x0201D900
-.word 0x0201D910, 0x0201D908, 0x0201D7E2, 0x0201D88E
-.word 0x0201D86A, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D7E8, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D802, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D91C, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
-.word 0x0201D9DA, 0x0201D7CC
+.d32 0x0201D82A, 0x0201D846, 0x0201D852, 0x0201D8A6
+.d32 0x0201D8A6, 0x0201D836, 0x0201D8BA, 0x0201D8C4
+.d32 0x0201D8CE, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D85E, 0x0201D876
+.d32 0x0201D882, 0x0201D89A, 0x0201D8F4, 0x0201D900
+.d32 0x0201D910, 0x0201D908, 0x0201D7E2, 0x0201D88E
+.d32 0x0201D86A, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D7E8, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D802, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D91C, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D9DA, 0x0201D9DA, 0x0201D9DA
+.d32 0x0201D9DA, 0x0201D7CC
 
 mov   r0,r5                         ; 081140E8
 add   r0,0x24                       ; 081140EA
@@ -48191,13 +48191,13 @@ ldr   r0,[r0]                       ; 08114A10
 mov   pc,r0                         ; 08114A12
 .pool                               ; 08114A14
 
-.word 0x0201E11C                    ; 08114A1C
-.word 0x0201E126                    ; 08114A20
-.word 0x0201E13C                    ; 08114A24
-.word 0x0201E146                    ; 08114A28
-.word 0x0201E158                    ; 08114A2C
-.word 0x0201E15E                    ; 08114A30
-.word 0x0201E150                    ; 08114A34
+.d32 0x0201E11C                     ; 08114A1C
+.d32 0x0201E126                     ; 08114A20
+.d32 0x0201E13C                     ; 08114A24
+.d32 0x0201E146                     ; 08114A28
+.d32 0x0201E158                     ; 08114A2C
+.d32 0x0201E15E                     ; 08114A30
+.d32 0x0201E150                     ; 08114A34
 
 ldr   r0,[r3,0x4]                   ; 08114A38
 ldr   r1,[r3,0x8]                   ; 08114A3A
@@ -48468,11 +48468,11 @@ ldr   r0,[r0]                       ; 08114C28
 mov   pc,r0                         ; 08114C2A
 .pool                               ; 08114C2C
 
-.word 0x0201E34C                    ; 08114C34
-.word 0x0201E32C                    ; 08114C38
-.word 0x0201E336                    ; 08114C3C
-.word 0x0201E340                    ; 08114C40
-.word 0x0201E354                    ; 08114C44
+.d32 0x0201E34C                     ; 08114C34
+.d32 0x0201E32C                     ; 08114C38
+.d32 0x0201E336                     ; 08114C3C
+.d32 0x0201E340                     ; 08114C40
+.d32 0x0201E354                     ; 08114C44
 
 ldr   r0,[r2,0x8]                   ; 08114C48
 ldr   r1,[r2,0x4]                   ; 08114C4A
@@ -48531,7 +48531,7 @@ mov    r4,0x7F                      ; 08114CB4
 mov    r5,0xFF00                    ; 08114CB8
 orr    r5,r5,0x80                   ; 08114CBC
 @@Code08114CC0:
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114CC0
 cmp    r3,0x0                       ; 08114CC4
 addmi  r3,r3,0x7F                   ; 08114CC8
@@ -48540,7 +48540,7 @@ ands   r12,r3,r5                    ; 08114CD0
 cmpne  r12,r5                       ; 08114CD4
 addne  r3,r4,r3,lsr 0x1F            ; 08114CD8
 strb   r3,[r1],0x1                  ; 08114CDC
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114CE0
 cmp    r3,0x0                       ; 08114CE4
 addmi  r3,r3,0x7F                   ; 08114CE8
@@ -48549,7 +48549,7 @@ ands   r12,r3,r5                    ; 08114CF0
 cmpne  r12,r5                       ; 08114CF4
 addne  r3,r4,r3,lsr 0x1F            ; 08114CF8
 strb   r3,[r1],0x1                  ; 08114CFC
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D00
 cmp    r3,0x0                       ; 08114D04
 addmi  r3,r3,0x7F                   ; 08114D08
@@ -48558,7 +48558,7 @@ ands   r12,r3,r5                    ; 08114D10
 cmpne  r12,r5                       ; 08114D14
 addne  r3,r4,r3,lsr 0x1F            ; 08114D18
 strb   r3,[r1],0x1                  ; 08114D1C
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D20
 cmp    r3,0x0                       ; 08114D24
 addmi  r3,r3,0x7F                   ; 08114D28
@@ -48567,7 +48567,7 @@ ands   r12,r3,r5                    ; 08114D30
 cmpne  r12,r5                       ; 08114D34
 addne  r3,r4,r3,lsr 0x1F            ; 08114D38
 strb   r3,[r1],0x1                  ; 08114D3C
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D40
 cmp    r3,0x0                       ; 08114D44
 addmi  r3,r3,0x7F                   ; 08114D48
@@ -48576,7 +48576,7 @@ ands   r12,r3,r5                    ; 08114D50
 cmpne  r12,r5                       ; 08114D54
 addne  r3,r4,r3,lsr 0x1F            ; 08114D58
 strb   r3,[r1],0x1                  ; 08114D5C
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D60
 cmp    r3,0x0                       ; 08114D64
 addmi  r3,r3,0x7F                   ; 08114D68
@@ -48585,7 +48585,7 @@ ands   r12,r3,r5                    ; 08114D70
 cmpne  r12,r5                       ; 08114D74
 addne  r3,r4,r3,lsr 0x1F            ; 08114D78
 strb   r3,[r1],0x1                  ; 08114D7C
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D80
 cmp    r3,0x0                       ; 08114D84
 addmi  r3,r3,0x7F                   ; 08114D88
@@ -48594,7 +48594,7 @@ ands   r12,r3,r5                    ; 08114D90
 cmpne  r12,r5                       ; 08114D94
 addne  r3,r4,r3,lsr 0x1F            ; 08114D98
 strb   r3,[r1],0x1                  ; 08114D9C
-.word  0xE0D030F2
+.d32  0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114DA0
 cmp    r3,0x0                       ; 08114DA4
 addmi  r3,r3,0x7F                   ; 08114DA8

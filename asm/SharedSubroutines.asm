@@ -1213,7 +1213,7 @@ mov   r0,r4                         ; 080E7F3C
 bl    Sub080E8E08                   ; 080E7F3E
 b     @@Code080E7F62                ; 080E7F42
 .pool                               ; 080E7F44
-@@_0a: .word 0x0                    ; 080E7F48
+@@_0a: .d32 0x0                     ; 080E7F48
 
 @@Code080E7F4C:
 ldr   r3,[@@_0b]                    ; 080E7F4C
@@ -1228,7 +1228,7 @@ add   r0,r0,r1                      ; 080E7F60
 @@Code080E7F62:
 pop   {r4-r5,pc}                    ; 080E7F62
 .pool                               ; 080E7F64
-@@_0b: .word 0x0                    ; 080E7F68
+@@_0b: .d32 0x0                     ; 080E7F68
 
 Sub080E7F6C:
 mov   r3,0x1                        ; 080E7F6C
@@ -2552,7 +2552,7 @@ mov   r9,r4                         ; 080E88F8
 mov   r10,r5                        ; 080E88FA
 pop   {r4-r7,pc}                    ; 080E88FC
 .align 4
-@@_0a: .word 0x0                    ; 080E8800
+@@_0a: .d32 0x0                     ; 080E8800
 .pool                               ; 080E8804
 
 push  {r4-r7,lr}                    ; 080E8910
@@ -2766,7 +2766,7 @@ bl    Sub080E8174                   ; 080E8A86
 add   sp,0x48                       ; 080E8A8A
 pop   {r4-r7,pc}                    ; 080E8A8C
 .align 4
-@@_0b: .word 0x0                    ; 080E8A90
+@@_0b: .d32 0x0                     ; 080E8A90
 .pool                               ; 080E8A94
 
 Sub080E8A98:
@@ -3218,7 +3218,7 @@ ldr   r1,[@@_0]                     ; 080E8DB4
 ldr   r0,=0xC1E00000                ; 080E8DB6
 b     @@Code080E8E00                ; 080E8DB8
 .pool                               ; 080E8DBA
-@@_0: .word 0x0                     ; 080E8DC0
+@@_0: .d32 0x0                      ; 080E8DC0
 
 @@Code080E8DC4:
 neg   r0,r2                         ; 080E8DC4

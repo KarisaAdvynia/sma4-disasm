@@ -4,10 +4,10 @@ SingleCart_080E9978:
 ; Japanese version's internal header
 b      Code080E9A38                 ; 080E9978
 .incbin "../data/InternalHeader_NintendoLogo.bin"
-.byte "SUPER MARIODAX4J"            ; 080E9A18
-.byte "01"                          ; 080E9A28
-.byte 0x96,0x00,0x00,0x00,0x00,0x00
-.byte 0x00,0x00,0x00,0x00,0x02,0x6C,0x00,0x00
+.d8 "SUPER MARIODAX4J"              ; 080E9A18
+.d8 "01"                            ; 080E9A28
+.d8 0x96,0x00,0x00,0x00,0x00,0x00
+.d8 0x00,0x00,0x00,0x00,0x02,0x6C,0x00,0x00
 
 Code080E9A38:
 b      Code080E9A84                 ; 080E9A38
@@ -85,8 +85,8 @@ mov    lr,pc                        ; 080E9C40
 bx     r1                           ; 080E9C44
 b      @@Code080E9C18               ; 080E9C48
 @@Pool:
-.word 0x03007E00
-.word 0x03007F80
+.d32 0x03007E00
+.d32 0x03007F80
 
 Code080E9C54:
 mov    r3,0x04000000                ; 080E9C54
