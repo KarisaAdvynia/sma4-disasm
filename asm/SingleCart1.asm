@@ -73,10 +73,10 @@ bx     lr                           ; 080E9B08
 @@Code080E9C18:
 mov    r0,0x12                      ; 080E9C18
 msr    cpsr_fc,r0                   ; 080E9C1C
-ldr    r13,[@@Pool+4]               ; 080E9C20
+ldr    r13,[@@_03007F80]            ; 080E9C20
 mov    r0,0x1F                      ; 080E9C24
 msr    cpsr_fc,r0                   ; 080E9C28
-ldr    r13,[@@Pool]                 ; 080E9C2C
+ldr    r13,[@@_03007E00]            ; 080E9C2C
 ldr    r1,=0x03007FFC               ; 080E9C30
 add    r0,=Code080E9C54             ; 080E9C34
 str    r0,[r1]                      ; 080E9C38
@@ -84,9 +84,8 @@ ldr    r1,=0x02000561               ; 080E9C3C
 mov    lr,pc                        ; 080E9C40
 bx     r1                           ; 080E9C44
 b      @@Code080E9C18               ; 080E9C48
-@@Pool:
-.d32 0x03007E00
-.d32 0x03007F80
+@@_03007E00: .d32 0x03007E00
+@@_03007F80: .d32 0x03007F80
 
 Code080E9C54:
 mov    r3,0x04000000                ; 080E9C54

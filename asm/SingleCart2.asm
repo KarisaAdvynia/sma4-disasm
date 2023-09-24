@@ -3,10 +3,10 @@
 SingleCart_080FC11C:
 mov    r0,0x12                      ; 080FC11C
 msr    cpsr_fc,r0                   ; 080FC120
-ldr    r13,[@@Pool+4]               ; 080FC124
+ldr    r13,[@@_03007F80]            ; 080FC124
 mov    r0,0x1F                      ; 080FC128
 msr    cpsr_fc,r0                   ; 080FC12C
-ldr    r13,[@@Pool]                 ; 080FC130
+ldr    r13,[@@_03007E00]            ; 080FC130
 ldr    r1,=0x03007FFC               ; 080FC134
 add    r0,=Code080FC158             ; 080FC138
 str    r0,[r1]                      ; 080FC13C
@@ -14,9 +14,8 @@ ldr    r1,=0x020058F1               ; 080FC140
 mov    lr,pc                        ; 080FC144
 bx     r1                           ; 080FC148
 b      SingleCart_080FC11C          ; 080FC14C
-@@Pool:
-.d32 0x03007E00
-.d32 0x03007F80
+@@_03007E00: .d32 0x03007E00
+@@_03007F80: .d32 0x03007F80
 
 Code080FC158:
 mov    r12,0x04000000               ; 080FC158
@@ -6934,7 +6933,7 @@ pop   {r0}                          ; 080FFDB0
 bx    r0                            ; 080FFDB2
 .pool                               ; 080FFDB4
 
-Sub080FFDD0:
+Return080FFDD0:
 bx    lr                            ; 080FFDD0
 .pool                               ; 080FFDD2
 
@@ -7725,7 +7724,7 @@ ldr   r2,=0x0424                    ; 081004EE
 add   r0,r0,r2                      ; 081004F0
 mov   r1,0x0                        ; 081004F2
 strh  r1,[r0]                       ; 081004F4
-bl    Sub080FFDD0                   ; 081004F6
+bl    Return080FFDD0                   ; 081004F6
 ldr   r0,=0x18A7                    ; 081004FA
 add   r4,r4,r0                      ; 081004FC
 ldrb  r0,[r4]                       ; 081004FE
@@ -43761,7 +43760,7 @@ Sub08112650:
 push  {lr}                          ; 08112650
 ldr   r0,=0x0202247C                ; 08112652
 bl    Sub081128A4                   ; 08112654
-bl    Sub08112774                   ; 08112658
+bl    Return08112774                   ; 08112658
 bl    Sub081126A8                   ; 0811265C
 bl    Sub08112788                   ; 08112660
 pop   {r0}                          ; 08112664
@@ -43770,9 +43769,9 @@ bx    r0                            ; 08112666
 
 Sub0811266C:
 push  {lr}                          ; 0811266C
-bl    Sub08112778                   ; 0811266E
+bl    Return08112778                   ; 0811266E
 bl    Sub081126C4                   ; 08112672
-bl    Sub081127AC                   ; 08112676
+bl    Return081127AC                   ; 08112676
 bl    Sub0811475C                   ; 0811267A
 pop   {r0}                          ; 0811267E
 bx    r0                            ; 08112680
@@ -43903,11 +43902,11 @@ bx    r1                            ; 0811276E
 bx    lr                            ; 08112770
 .pool                               ; 08112772
 
-Sub08112774:
+Return08112774:
 bx    lr                            ; 08112774
 .pool                               ; 08112776
 
-Sub08112778:
+Return08112778:
 bx    lr                            ; 08112778
 .pool                               ; 0811277A
 
@@ -43938,7 +43937,7 @@ pop   {r0}                          ; 081127A0
 bx    r0                            ; 081127A2
 .pool                               ; 081127A4
 
-Sub081127AC:
+Return081127AC:
 bx    lr                            ; 081127AC
 .pool                               ; 081127AE
 
@@ -45034,7 +45033,7 @@ pop   {r4-r5}                       ; 081130A6
 pop   {r1}                          ; 081130A8
 bx    r1                            ; 081130AA
 
-Sub081130AC:
+Return081130AC:
 bx    lr                            ; 081130AC
 .pool                               ; 081130AE
 
@@ -48490,7 +48489,7 @@ b     @@Code08114C76                ; 08114C62
 .pool                               ; 08114C64
 
 ldrb  r0,[r2,0x4]                   ; 08114C68
-bl    Sub081130AC                   ; 08114C6A
+bl    Return081130AC                   ; 08114C6A
 b     @@Code08114C76                ; 08114C6E
 ldrb  r0,[r2,0x4]                   ; 08114C70
 bl    Sub081130B0                   ; 08114C72
@@ -48531,7 +48530,7 @@ mov    r4,0x7F                      ; 08114CB4
 mov    r5,0xFF00                    ; 08114CB8
 orr    r5,r5,0x80                   ; 08114CBC
 @@Code08114CC0:
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114CC0
 cmp    r3,0x0                       ; 08114CC4
 addmi  r3,r3,0x7F                   ; 08114CC8
@@ -48540,7 +48539,7 @@ ands   r12,r3,r5                    ; 08114CD0
 cmpne  r12,r5                       ; 08114CD4
 addne  r3,r4,r3,lsr 0x1F            ; 08114CD8
 strb   r3,[r1],0x1                  ; 08114CDC
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114CE0
 cmp    r3,0x0                       ; 08114CE4
 addmi  r3,r3,0x7F                   ; 08114CE8
@@ -48549,7 +48548,7 @@ ands   r12,r3,r5                    ; 08114CF0
 cmpne  r12,r5                       ; 08114CF4
 addne  r3,r4,r3,lsr 0x1F            ; 08114CF8
 strb   r3,[r1],0x1                  ; 08114CFC
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D00
 cmp    r3,0x0                       ; 08114D04
 addmi  r3,r3,0x7F                   ; 08114D08
@@ -48558,7 +48557,7 @@ ands   r12,r3,r5                    ; 08114D10
 cmpne  r12,r5                       ; 08114D14
 addne  r3,r4,r3,lsr 0x1F            ; 08114D18
 strb   r3,[r1],0x1                  ; 08114D1C
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D20
 cmp    r3,0x0                       ; 08114D24
 addmi  r3,r3,0x7F                   ; 08114D28
@@ -48567,7 +48566,7 @@ ands   r12,r3,r5                    ; 08114D30
 cmpne  r12,r5                       ; 08114D34
 addne  r3,r4,r3,lsr 0x1F            ; 08114D38
 strb   r3,[r1],0x1                  ; 08114D3C
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D40
 cmp    r3,0x0                       ; 08114D44
 addmi  r3,r3,0x7F                   ; 08114D48
@@ -48576,7 +48575,7 @@ ands   r12,r3,r5                    ; 08114D50
 cmpne  r12,r5                       ; 08114D54
 addne  r3,r4,r3,lsr 0x1F            ; 08114D58
 strb   r3,[r1],0x1                  ; 08114D5C
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D60
 cmp    r3,0x0                       ; 08114D64
 addmi  r3,r3,0x7F                   ; 08114D68
@@ -48585,7 +48584,7 @@ ands   r12,r3,r5                    ; 08114D70
 cmpne  r12,r5                       ; 08114D74
 addne  r3,r4,r3,lsr 0x1F            ; 08114D78
 strb   r3,[r1],0x1                  ; 08114D7C
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114D80
 cmp    r3,0x0                       ; 08114D84
 addmi  r3,r3,0x7F                   ; 08114D88
@@ -48594,7 +48593,7 @@ ands   r12,r3,r5                    ; 08114D90
 cmpne  r12,r5                       ; 08114D94
 addne  r3,r4,r3,lsr 0x1F            ; 08114D98
 strb   r3,[r1],0x1                  ; 08114D9C
-.d32  0xE0D030F2
+.d32 0xE0D030F2
 ;ldrsh  r3,[r0],0x2                  ; 08114DA0
 cmp    r3,0x0                       ; 08114DA4
 addmi  r3,r3,0x7F                   ; 08114DA8

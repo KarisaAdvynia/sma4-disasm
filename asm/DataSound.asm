@@ -344,22 +344,39 @@ Data082642EC:                       ; 082642EC
 .d32 0x001428A2, 0x00155B81, 0x0016A09E, 0x0017F910
 .d32 0x001965FE, 0x001AE89F, 0x001C823E, 0x001E3437
 Data082644CC:                       ; 082644CC
-.d32 0x09060300, 0x15120F0C, 0x221F1C18, 0x2E2B2825
-.d32 0x39363330, 0x44413F3C, 0x4E4C4947, 0x58555351
-.d32 0x605E5C5A, 0x68666462, 0x6F6D6C6A, 0x75737270
-.d32 0x79787776, 0x7C7C7B7A, 0x7F7E7E7D, 0x7F7F7F7F
-.d32 0x7F7F7F7F, 0x7E7E7F7F, 0x7B7C7C7D, 0x7778797A
-.d32 0x72737576, 0x6C6D6F70, 0x6466686A, 0x5C5E6062
-.d32 0x5355585A, 0x494C4E51, 0x3F414447, 0x3336393C
-.d32 0x282B2E30, 0x1C1F2225, 0x0F121518, 0x0306090C
-.d32 0xF7FAFD00, 0xEBEEF1F4, 0xDEE1E4E8, 0xD2D5D8DB
-.d32 0xC7CACDD0, 0xBCBFC1C4, 0xB2B4B7B9, 0xA8ABADAF
-.d32 0xA0A2A4A6, 0x989A9C9E, 0x91939496, 0x8B8D8E90
-.d32 0x8788898A, 0x84848586, 0x81828283, 0x81818181
-.d32 0x81818181, 0x82828181, 0x85848483, 0x89888786
-.d32 0x8E8D8B8A, 0x94939190, 0x9C9A9896, 0xA4A2A09E
-.d32 0xADABA8A6, 0xB7B4B2AF, 0xC1BFBCB9, 0xCDCAC7C4
-.d32 0xD8D5D2CF, 0xE4E1DEDB, 0xF1EEEBE8, 0xFDFAF7F4
+.d8 0x00, 0x03, 0x06, 0x09, 0x0C, 0x0F, 0x12, 0x15
+.d8 0x18, 0x1C, 0x1F, 0x22, 0x25, 0x28, 0x2B, 0x2E
+.d8 0x30, 0x33, 0x36, 0x39, 0x3C, 0x3F, 0x41, 0x44
+.d8 0x47, 0x49, 0x4C, 0x4E, 0x51, 0x53, 0x55, 0x58
+.d8 0x5A, 0x5C, 0x5E, 0x60, 0x62, 0x64, 0x66, 0x68
+.d8 0x6A, 0x6C, 0x6D, 0x6F, 0x70, 0x72, 0x73, 0x75
+.d8 0x76, 0x77, 0x78, 0x79, 0x7A, 0x7B, 0x7C, 0x7C
+.d8 0x7D, 0x7E, 0x7E, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F
+.d8 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7E, 0x7E
+.d8 0x7D, 0x7C, 0x7C, 0x7B, 0x7A, 0x79, 0x78, 0x77
+.d8 0x76, 0x75, 0x73, 0x72, 0x70, 0x6F, 0x6D, 0x6C
+.d8 0x6A, 0x68, 0x66, 0x64, 0x62, 0x60, 0x5E, 0x5C
+.d8 0x5A, 0x58, 0x55, 0x53, 0x51, 0x4E, 0x4C, 0x49
+.d8 0x47, 0x44, 0x41, 0x3F, 0x3C, 0x39, 0x36, 0x33
+.d8 0x30, 0x2E, 0x2B, 0x28, 0x25, 0x22, 0x1F, 0x1C
+.d8 0x18, 0x15, 0x12, 0x0F, 0x0C, 0x09, 0x06, 0x03
+.d8 0x00, 0xFD, 0xFA, 0xF7, 0xF4, 0xF1, 0xEE, 0xEB
+.d8 0xE8, 0xE4, 0xE1, 0xDE, 0xDB, 0xD8, 0xD5, 0xD2
+.d8 0xD0, 0xCD, 0xCA, 0xC7, 0xC4, 0xC1, 0xBF, 0xBC
+.d8 0xB9, 0xB7, 0xB4, 0xB2, 0xAF, 0xAD, 0xAB, 0xA8
+.d8 0xA6, 0xA4, 0xA2, 0xA0, 0x9E, 0x9C, 0x9A, 0x98
+.d8 0x96, 0x94, 0x93, 0x91, 0x90, 0x8E, 0x8D, 0x8B
+.d8 0x8A, 0x89, 0x88, 0x87, 0x86, 0x85, 0x84, 0x84
+.d8 0x83, 0x82, 0x82, 0x81, 0x81, 0x81, 0x81, 0x81
+.d8 0x81, 0x81, 0x81, 0x81, 0x81, 0x81, 0x82, 0x82
+.d8 0x83, 0x84, 0x84, 0x85, 0x86, 0x87, 0x88, 0x89
+.d8 0x8A, 0x8B, 0x8D, 0x8E, 0x90, 0x91, 0x93, 0x94
+.d8 0x96, 0x98, 0x9A, 0x9C, 0x9E, 0xA0, 0xA2, 0xA4
+.d8 0xA6, 0xA8, 0xAB, 0xAD, 0xAF, 0xB2, 0xB4, 0xB7
+.d8 0xB9, 0xBC, 0xBF, 0xC1, 0xC4, 0xC7, 0xCA, 0xCD
+.d8 0xCF, 0xD2, 0xD5, 0xD8, 0xDB, 0xDE, 0xE1, 0xE4
+.d8 0xE8, 0xEB, 0xEE, 0xF1, 0xF4, 0xF7, 0xFA, 0xFD
+UnusedPtrs082645CC:                 ; 082645CC
 .d32 0x03002202, 0x030079DC, 0x03002200, 0x03002204
 .d32 Sub080E76C4+1, 0x030079FC, 0x03002208, 0x03002204
 .d32 0x03002200, 0x030079DC, 0x03002202, 0x03002204
@@ -367,7 +384,7 @@ Data082644CC:                       ; 082644CC
 .d32 Sub080E7818+1, 0x030079EC, Sub080E7858+1, Sub080E787C+1
 .d32 0x030079EC, Sub080E7918+1, Sub080E7948+1, 0x030079EC
 .d32 Sub080E7918+1, Sub080E7948+1, 0x030079E8, 0x030079E8
-DataPtrs0826463C:                   ; 0826463C
+SaveTypeStringUnused:               ; 0826463C
 .d8 "FLASH1M_V102",0x00
 .align 4
 DataPtrs0826464C:                   ; 0826464C
@@ -465,179 +482,180 @@ RelPtrs08266CCC:                    ; 08266CCC
 .d32 Data08266ED0-RelPtrs08266CCC, Data08266ED2-RelPtrs08266CCC
 .d32 Data08266ED4-RelPtrs08266CCC
 Data08266E28:                       ; 08266E28
-.incbin "../data/Sound/Data08266E28.bin"
+.d16 0x0000
 Data08266E2A:                       ; 08266E2A
-.incbin "../data/Sound/Data08266E2A.bin"
+.d16 0x0000
 Data08266E2C:                       ; 08266E2C
-.incbin "../data/Sound/Data08266E2C.bin"
+.d16 0x0000
 Data08266E2E:                       ; 08266E2E
-.incbin "../data/Sound/Data08266E2E.bin"
+.d16 0x0000
 Data08266E30:                       ; 08266E30
-.incbin "../data/Sound/Data08266E30.bin"
+.d16 0x0000
 Data08266E32:                       ; 08266E32
-.incbin "../data/Sound/Data08266E32.bin"
+.d16 0x0000
 Data08266E34:                       ; 08266E34
-.incbin "../data/Sound/Data08266E34.bin"
+.d16 0x0000
 Data08266E36:                       ; 08266E36
-.incbin "../data/Sound/Data08266E36.bin"
+.d16 0x0000
 Data08266E38:                       ; 08266E38
-.incbin "../data/Sound/Data08266E38.bin"
+.d16 0x0000
 Data08266E3A:                       ; 08266E3A
-.incbin "../data/Sound/Data08266E3A.bin"
+.d16 0x0000
 Data08266E3C:                       ; 08266E3C
-.incbin "../data/Sound/Data08266E3C.bin"
+.d16 0x0000
 Data08266E3E:                       ; 08266E3E
-.incbin "../data/Sound/Data08266E3E.bin"
+.d16 0x0000
 Data08266E40:                       ; 08266E40
-.incbin "../data/Sound/Data08266E40.bin"
+.d16 0x0000
 Data08266E42:                       ; 08266E42
-.incbin "../data/Sound/Data08266E42.bin"
+.d16 0x0000
 Data08266E44:                       ; 08266E44
-.incbin "../data/Sound/Data08266E44.bin"
+.d16 0x0000
 Data08266E46:                       ; 08266E46
-.incbin "../data/Sound/Data08266E46.bin"
+.d16 0x0000
 Data08266E48:                       ; 08266E48
-.incbin "../data/Sound/Data08266E48.bin"
+.d16 0x0000
 Data08266E4A:                       ; 08266E4A
-.incbin "../data/Sound/Data08266E4A.bin"
+.d16 0x0000
 Data08266E4C:                       ; 08266E4C
-.incbin "../data/Sound/Data08266E4C.bin"
+.d16 0x0000
 Data08266E4E:                       ; 08266E4E
-.incbin "../data/Sound/Data08266E4E.bin"
+.d16 0x0000
 Data08266E50:                       ; 08266E50
-.incbin "../data/Sound/Data08266E50.bin"
+.d16 0x0000
 Data08266E52:                       ; 08266E52
-.incbin "../data/Sound/Data08266E52.bin"
+.d16 0x0000
 Data08266E54:                       ; 08266E54
-.incbin "../data/Sound/Data08266E54.bin"
+.d16 0x0000
 Data08266E56:                       ; 08266E56
-.incbin "../data/Sound/Data08266E56.bin"
+.d16 0x0000
 Data08266E58:                       ; 08266E58
-.incbin "../data/Sound/Data08266E58.bin"
+.d16 0x0000
 Data08266E5A:                       ; 08266E5A
-.incbin "../data/Sound/Data08266E5A.bin"
+.d16 0x0000
 Data08266E5C:                       ; 08266E5C
-.incbin "../data/Sound/Data08266E5C.bin"
+.d16 0x0000
 Data08266E5E:                       ; 08266E5E
-.incbin "../data/Sound/Data08266E5E.bin"
+.d16 0x0000
 Data08266E60:                       ; 08266E60
-.incbin "../data/Sound/Data08266E60.bin"
+.d16 0x0000
 Data08266E62:                       ; 08266E62
-.incbin "../data/Sound/Data08266E62.bin"
+.d16 0x0000
 Data08266E64:                       ; 08266E64
-.incbin "../data/Sound/Data08266E64.bin"
+.d16 0x0000
 Data08266E66:                       ; 08266E66
-.incbin "../data/Sound/Data08266E66.bin"
+.d16 0x0000
 Data08266E68:                       ; 08266E68
-.incbin "../data/Sound/Data08266E68.bin"
+.d16 0x0000
 Data08266E6A:                       ; 08266E6A
-.incbin "../data/Sound/Data08266E6A.bin"
+.d16 0x0000
 Data08266E6C:                       ; 08266E6C
-.incbin "../data/Sound/Data08266E6C.bin"
+.d16 0x0000
 Data08266E6E:                       ; 08266E6E
-.incbin "../data/Sound/Data08266E6E.bin"
+.d16 0x0000
 Data08266E70:                       ; 08266E70
-.incbin "../data/Sound/Data08266E70.bin"
+.d16 0x0000
 Data08266E72:                       ; 08266E72
-.incbin "../data/Sound/Data08266E72.bin"
+.d16 0x0000
 Data08266E74:                       ; 08266E74
-.incbin "../data/Sound/Data08266E74.bin"
+.d16 0x0000
 Data08266E76:                       ; 08266E76
-.incbin "../data/Sound/Data08266E76.bin"
+.d16 0x0000
 Data08266E78:                       ; 08266E78
-.incbin "../data/Sound/Data08266E78.bin"
+.d16 0x0000
 Data08266E7A:                       ; 08266E7A
-.incbin "../data/Sound/Data08266E7A.bin"
+.d16 0x0000
 Data08266E7C:                       ; 08266E7C
-.incbin "../data/Sound/Data08266E7C.bin"
+.d16 0x0000
 Data08266E7E:                       ; 08266E7E
-.incbin "../data/Sound/Data08266E7E.bin"
+.d16 0x0000
 Data08266E80:                       ; 08266E80
-.incbin "../data/Sound/Data08266E80.bin"
+.d16 0x0000
 Data08266E82:                       ; 08266E82
-.incbin "../data/Sound/Data08266E82.bin"
+.d16 0x0000
 Data08266E84:                       ; 08266E84
-.incbin "../data/Sound/Data08266E84.bin"
+.d16 0x0000
 Data08266E86:                       ; 08266E86
-.incbin "../data/Sound/Data08266E86.bin"
+.d16 0x0000
 Data08266E88:                       ; 08266E88
-.incbin "../data/Sound/Data08266E88.bin"
+.d16 0x0000
 Data08266E8A:                       ; 08266E8A
-.incbin "../data/Sound/Data08266E8A.bin"
+.d16 0x0000
 Data08266E8C:                       ; 08266E8C
-.incbin "../data/Sound/Data08266E8C.bin"
+.d16 0x0000
 Data08266E8E:                       ; 08266E8E
-.incbin "../data/Sound/Data08266E8E.bin"
+.d16 0x0000
 Data08266E90:                       ; 08266E90
-.incbin "../data/Sound/Data08266E90.bin"
+.d16 0x0000
 Data08266E92:                       ; 08266E92
-.incbin "../data/Sound/Data08266E92.bin"
+.d16 0x0000
 Data08266E94:                       ; 08266E94
-.incbin "../data/Sound/Data08266E94.bin"
+.d16 0x0000
 Data08266E96:                       ; 08266E96
-.incbin "../data/Sound/Data08266E96.bin"
+.d16 0x0000
 Data08266E98:                       ; 08266E98
-.incbin "../data/Sound/Data08266E98.bin"
+.d16 0x0002
 Data08266E9A:                       ; 08266E9A
-.incbin "../data/Sound/Data08266E9A.bin"
+.d16 0x0002
 Data08266E9C:                       ; 08266E9C
-.incbin "../data/Sound/Data08266E9C.bin"
+.d16 0x0002
 Data08266E9E:                       ; 08266E9E
-.incbin "../data/Sound/Data08266E9E.bin"
+.d16 0x0002
 Data08266EA0:                       ; 08266EA0
-.incbin "../data/Sound/Data08266EA0.bin"
+.d16 0x0002
 Data08266EA2:                       ; 08266EA2
-.incbin "../data/Sound/Data08266EA2.bin"
+.d16 0x0002
 Data08266EA4:                       ; 08266EA4
-.incbin "../data/Sound/Data08266EA4.bin"
+.d16 0x0002
 Data08266EA6:                       ; 08266EA6
-.incbin "../data/Sound/Data08266EA6.bin"
+.d16 0x0002
 Data08266EA8:                       ; 08266EA8
-.incbin "../data/Sound/Data08266EA8.bin"
+.d16 0x0002
 Data08266EAA:                       ; 08266EAA
-.incbin "../data/Sound/Data08266EAA.bin"
+.d16 0x0002
 Data08266EAC:                       ; 08266EAC
-.incbin "../data/Sound/Data08266EAC.bin"
+.d16 0x0002
 Data08266EAE:                       ; 08266EAE
-.incbin "../data/Sound/Data08266EAE.bin"
+.d16 0x0002
 Data08266EB0:                       ; 08266EB0
-.incbin "../data/Sound/Data08266EB0.bin"
+.d16 0x0002
 Data08266EB2:                       ; 08266EB2
-.incbin "../data/Sound/Data08266EB2.bin"
+.d16 0x0002
 Data08266EB4:                       ; 08266EB4
-.incbin "../data/Sound/Data08266EB4.bin"
+.d16 0x0002
 Data08266EB6:                       ; 08266EB6
-.incbin "../data/Sound/Data08266EB6.bin"
+.d16 0x0002
 Data08266EB8:                       ; 08266EB8
-.incbin "../data/Sound/Data08266EB8.bin"
+.d16 0x0002
 Data08266EBA:                       ; 08266EBA
-.incbin "../data/Sound/Data08266EBA.bin"
+.d16 0x0002
 Data08266EBC:                       ; 08266EBC
-.incbin "../data/Sound/Data08266EBC.bin"
+.d16 0x0002
 Data08266EBE:                       ; 08266EBE
-.incbin "../data/Sound/Data08266EBE.bin"
+.d16 0x0002
 Data08266EC0:                       ; 08266EC0
-.incbin "../data/Sound/Data08266EC0.bin"
+.d16 0x0000
 Data08266EC2:                       ; 08266EC2
-.incbin "../data/Sound/Data08266EC2.bin"
+.d16 0x0000
 Data08266EC4:                       ; 08266EC4
-.incbin "../data/Sound/Data08266EC4.bin"
+.d16 0x0000
 Data08266EC6:                       ; 08266EC6
-.incbin "../data/Sound/Data08266EC6.bin"
+.d16 0x0000
 Data08266EC8:                       ; 08266EC8
-.incbin "../data/Sound/Data08266EC8.bin"
+.d16 0x0000
 Data08266ECA:                       ; 08266ECA
-.incbin "../data/Sound/Data08266ECA.bin"
+.d16 0x0000
 Data08266ECC:                       ; 08266ECC
-.incbin "../data/Sound/Data08266ECC.bin"
+.d16 0x0000
 Data08266ECE:                       ; 08266ECE
-.incbin "../data/Sound/Data08266ECE.bin"
+.d16 0x0000
 Data08266ED0:                       ; 08266ED0
-.incbin "../data/Sound/Data08266ED0.bin"
+.d16 0x0000
 Data08266ED2:                       ; 08266ED2
-.incbin "../data/Sound/Data08266ED2.bin"
+.d16 0x0000
 Data08266ED4:                       ; 08266ED4
-.incbin "../data/Sound/Data08266ED4.bin"
+.d16 0x0000
+.fill 6
 RelPtrs08266EDC:                    ; 08266EDC
 .d32 RelPtrs08266EE8-RelPtrs08266EDC, RelPtrs08340218-RelPtrs08266EDC
 .d32 RelPtrs08341F68-RelPtrs08266EDC
