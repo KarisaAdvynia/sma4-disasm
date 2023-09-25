@@ -7724,7 +7724,7 @@ ldr   r2,=0x0424                    ; 081004EE
 add   r0,r0,r2                      ; 081004F0
 mov   r1,0x0                        ; 081004F2
 strh  r1,[r0]                       ; 081004F4
-bl    Return080FFDD0                   ; 081004F6
+bl    Return080FFDD0                ; 081004F6
 ldr   r0,=0x18A7                    ; 081004FA
 add   r4,r4,r0                      ; 081004FC
 ldrb  r0,[r4]                       ; 081004FE
@@ -43760,7 +43760,7 @@ Sub08112650:
 push  {lr}                          ; 08112650
 ldr   r0,=0x0202247C                ; 08112652
 bl    Sub081128A4                   ; 08112654
-bl    Return08112774                   ; 08112658
+bl    Return08112774                ; 08112658
 bl    Sub081126A8                   ; 0811265C
 bl    Sub08112788                   ; 08112660
 pop   {r0}                          ; 08112664
@@ -43769,9 +43769,9 @@ bx    r0                            ; 08112666
 
 Sub0811266C:
 push  {lr}                          ; 0811266C
-bl    Return08112778                   ; 0811266E
+bl    Return08112778                ; 0811266E
 bl    Sub081126C4                   ; 08112672
-bl    Return081127AC                   ; 08112676
+bl    Return081127AC                ; 08112676
 bl    Sub0811475C                   ; 0811267A
 pop   {r0}                          ; 0811267E
 bx    r0                            ; 08112680
@@ -48489,7 +48489,7 @@ b     @@Code08114C76                ; 08114C62
 .pool                               ; 08114C64
 
 ldrb  r0,[r2,0x4]                   ; 08114C68
-bl    Return081130AC                   ; 08114C6A
+bl    Return081130AC                ; 08114C6A
 b     @@Code08114C76                ; 08114C6E
 ldrb  r0,[r2,0x4]                   ; 08114C70
 bl    Sub081130B0                   ; 08114C72

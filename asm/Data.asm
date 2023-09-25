@@ -949,9 +949,10 @@ Data08124FAA:                       ; 08124FAA
 .d16 0x00F0, 0xF000, 0x7030, 0xF0B0
 Data08124FB2:                       ; 08124FB2
 .d16 0x0403, 0x0002, 0x0003, 0x0003, 0x0003, 0x0003
-Data08124FBE:                       ; 08124FBE
-.d16 0x1210, 0x1413, 0x1516, 0x1917, 0x2611, 0x121B, 0x3332, 0x3534
-.d16 0x0036
+SublevelMusicIDs:                   ; 08124FBE
+.d8 0x10, 0x12, 0x13, 0x14, 0x16, 0x15, 0x17, 0x19
+.d8 0x11, 0x26, 0x1B, 0x12, 0x32, 0x33, 0x34, 0x35
+.d8 0x36, 0x00
 Data08124FD0:                       ; 08124FD0
 .d32 0x0202E000, 0x0202E0F0, 0x0202E1E0, 0x0202E2D0
 .d32 0x0202E3C0, 0x0202E4B0, 0x0202E5A0, 0x0202E690
@@ -988,7 +989,7 @@ CodePtrs08125150:                   ; 08125150
 .d32 Sub0801ED98+1, Sub08021744+1, Sub0802397C+1, Sub0801FCEC+1
 .d32 Sub0801D9E8+1, Sub0801FD44+1, Sub0801CB04+1, Sub08023EA0+1
 .d32 Sub08023EA0+1, Sub08023EA0+1, 0x00000000
-SublevelMainDataPtrs:                   ; 0812519C
+SublevelMainDataPtrs:               ; 0812519C
 .d32 Data0813ED58, Data0813EE5C, Data0813F045, Data0813F061
 .d32 Data0813F18C, Data0813F2D5, Data0813F374, Data0813F3C0
 .d32 Data0813F3DD, Data0813F434, Data0813F581, Data0813F5B0
@@ -1135,74 +1136,271 @@ SublevelMainDataPtrs:                   ; 0812519C
 .d32 Data0814DE31, Data0814DE3D, Data0814DE49, Data0814DE55
 .d32 Data0814DE64, Data0814DE70, Data0814DE7C, Data0814DE88
 .d32 Data0814DE94
-SublevelSpriteDataPtrs:                   ; 08125AB0
-.d32 Data0815701C, Data0815701E, Data08157020, Data08157022
-.d32 Data08157024, Data08157026, Data08157028, Data0815702A
-.d32 Data0815702C, Data0815702E, Data08157030, Data08157032
-.d32 Data08157034, Data08157036, Data08157038, Data0815703A
-.d32 Data08157040, Data08157046, Data08157058, Data0815706A
-.d32 Data08157070, Data081570B2, Data081570C0, Data081570C2
-.d32 Data081570C4, Data081570C6, Data081570C8, Data081570CA
-.d32 DataPtrs081570E4, Data081570EE, Data0815715C, Data08157162
-.d32 Data08157168, Data0815716E, Data08157174, Data0815717A
-.d32 Data08157180, Data08157186, Data0815718C, Data08157192
-.d32 Data08157198, Data0815719E, Data081571A4, Data081571AA
-.d32 Data081571B0, Data081571B6, Data081571BC, Data081571C2
-.d32 Data081571C8, Data081571CE, Data081571D4, Data081571DA
-.d32 Data081571E0, Data081571E6, Data08157200, Data08157269
-.d32 Data0815726F, Data081572AD, Data08157317, Data08157351
-.d32 Data08157361, Data08157371, Data081573DB, Data08157451
-.d32 Data0815748F, Data08157499, Data081574A8, Data08157528
-.d32 Data081575AC, Data081575B2, Data081575B8, Data081575CE
-.d32 Data08157646, Data08157665, Data0815766B, Data08157711
-.d32 Data08157773, Data08157779, Data081577C3, Data08157811
-.d32 Data0815784B, Data0815785B, Data08157861, Data08157867
-.d32 Data08157889, Data0815788F, Data08157899, Data0815789B
-.d32 Data081578C1, Data081578C7, Data08157933, Data08157966
-.d32 Data081579D7, Data081579E5, Data08157A93, Data08157AFF
-.d32 Data08157B1D, Data08157B67, Data08157B71, Data08157BA3
-.d32 Data08157BB1, Data08157BD3, Data08157C09, Data08157C63
-.d32 Data08157C8D, Data08157CD7, Data08157D01, Data08157D73
-.d32 Data08157DAD, Data08157E23, Data08157E5D, Data08157EAB
-.d32 Data08157EC9, Data08157EE1, Data08157EE3, Data08157EE9
-.d32 Data08157F0F, Data08157F25, Data08157F2F, Data08157F49
-.d32 Data08157F77, Data08157F81, Data08157FC3, Data08158015
-.d32 Data0815805B, Data08158069, Data08158093, Data0815809D
-.d32 Data081580E7, Data08158135, Data0815813B, Data08158155
-.d32 Data08158197, Data081581D5, Data081581E7, Data081581F9
-.d32 Data08158247, Data0815828D, Data081582BB, Data081582E9
-.d32 Data081582EF, Data08158321, Data0815836F, Data081583B5
-.d32 Data081583FB, Data08158409, Data0815841D, Data08158461
-.d32 Data08158477, Data08158481, Data0815848B, Data081584C6
-.d32 Data08158518, Data08158580, Data081585BB, Data08158641
-.d32 Data08158655, Data08158687, Data0815869B, Data081586BD
-.d32 Data081586D3, Data081586DD, Data081586EF, Data08158733
-.d32 Data0815875D, Data081587BF, Data081587C9, Data08158807
-.d32 Data08158855, Data081588A7, Data081588C1, Data081588C7
-.d32 Data081588CD, Data081588D3, Data081588E3, Data081588ED
-.d32 Data08158959, Data0815895F, Data08158965, Data08158974
-.d32 Data081589B2, Data081589E4, Data08158A1A, Data08158A38
-.d32 Data08158A54, Data08158A66, Data08158A74, Data08158A88
-.d32 Data08158A9C, Data08158AA6, Data08158AAC, Data08158ACA
-.d32 Data08158AD0, Data08158B74, Data08158B82, Data08158B8C
-.d32 Data08158B92, Data08158C0C, Data08158C56, Data08158C94
-.d32 Data08158D24, Data08158D77, Data08158D8A, Data08158DE6
-.d32 Data08158E04, Data08158E0A, Data08158E10, Data08158E16
-.d32 Data08158E21, Data08158EA3, Data08158EC1, Data08158ECF
-.d32 Data08158EFE, Data08158F23, Data08158F5D, Data08158F88
-.d32 Data08158FD5, Data08158FF7, Data08159055, Data08159060
-.d32 Data08159082, Data081590F8, Data0815911E, Data08159161
-.d32 Data08159173, Data081591A6, Data081591C8, Data081591E9
-.d32 Data08159203, Data08159213, Data08159263, Data0815929F
-.d32 Data081592F8, Data08159357, Data081593EA, Data0815943E
-.d32 Data081594C4, Data081594CA, Data081594D0, Data08159526
-.d32 Data08159564, Data081595AE, Data08159600, Data08159662
-.d32 Data0815969C, Data08159706, Data08159774, Data081597DA
-.d32 Data08159848, Data081598C2, Data081598C8, Data081598CE
-.d32 Data081598D4, Data081598DA, Data081598E0, Data081598E6
-.d32 Data081598F4, Data08159902, Data08159908, Data0815990E
-.d32 Data08159914, Data08159922, Data0815995C
-SublevelSecHeaderPtrs:                   ; 08125ECC
+SublevelSpriteDataPtrs:             ; 08125AB0
+.d32 Data0815701C                   ; 000
+.d32 Data0815701E                   ; 001
+.d32 Data08157020                   ; 002
+.d32 Data08157022                   ; 003
+.d32 Data08157024                   ; 004
+.d32 Data08157026                   ; 005
+.d32 Data08157028                   ; 006
+.d32 Data0815702A                   ; 007
+.d32 Data0815702C                   ; 008
+.d32 Data0815702E                   ; 009
+.d32 Data08157030                   ; 00A
+.d32 Data08157032                   ; 00B
+.d32 Data08157034                   ; 00C
+.d32 Data08157036                   ; 00D
+.d32 Data08157038                   ; 00E
+.d32 Data0815703A                   ; 00F
+.d32 Data08157040                   ; 010
+.d32 Data08157046                   ; 011
+.d32 Data08157058                   ; 012
+.d32 Data0815706A                   ; 013
+.d32 Data08157070                   ; 014
+.d32 Data081570B2                   ; 015
+.d32 Data081570C0                   ; 016
+.d32 Data081570C2                   ; 017
+.d32 Data081570C4                   ; 018
+.d32 Data081570C6                   ; 019
+.d32 Data081570C8                   ; 01A
+.d32 Data081570CA                   ; 01B
+.d32 Data081570E4                   ; 01C
+.d32 Data081570EE                   ; 01D
+.d32 Data0815715C                   ; 01E
+.d32 Data08157162                   ; 01F
+.d32 Data08157168                   ; 020
+.d32 Data0815716E                   ; 021
+.d32 Data08157174                   ; 022
+.d32 Data0815717A                   ; 023
+.d32 Data08157180                   ; 024
+.d32 Data08157186                   ; 025
+.d32 Data0815718C                   ; 026
+.d32 Data08157192                   ; 027
+.d32 Data08157198                   ; 028
+.d32 Data0815719E                   ; 029
+.d32 Data081571A4                   ; 02A
+.d32 Data081571AA                   ; 02B
+.d32 Data081571B0                   ; 02C
+.d32 Data081571B6                   ; 02D
+.d32 Data081571BC                   ; 02E
+.d32 Data081571C2                   ; 02F
+.d32 Data081571C8                   ; 030
+.d32 Data081571CE                   ; 031
+.d32 Data081571D4                   ; 032
+.d32 Data081571DA                   ; 033
+.d32 Data081571E0                   ; 034
+.d32 Data081571E6                   ; 035
+.d32 Data08157200                   ; 036
+.d32 Data08157269                   ; 037
+.d32 Data0815726F                   ; 038
+.d32 Data081572AD                   ; 039
+.d32 Data08157317                   ; 03A
+.d32 Data08157351                   ; 03B
+.d32 Data08157361                   ; 03C
+.d32 Data08157371                   ; 03D
+.d32 Data081573DB                   ; 03E
+.d32 Data08157451                   ; 03F
+.d32 Data0815748F                   ; 040
+.d32 Data08157499                   ; 041
+.d32 Data081574A8                   ; 042
+.d32 Data08157528                   ; 043
+.d32 Data081575AC                   ; 044
+.d32 Data081575B2                   ; 045
+.d32 Data081575B8                   ; 046
+.d32 Data081575CE                   ; 047
+.d32 Data08157646                   ; 048
+.d32 Data08157665                   ; 049
+.d32 Data0815766B                   ; 04A
+.d32 Data08157711                   ; 04B
+.d32 Data08157773                   ; 04C
+.d32 Data08157779                   ; 04D
+.d32 Data081577C3                   ; 04E
+.d32 Data08157811                   ; 04F
+.d32 Data0815784B                   ; 050
+.d32 Data0815785B                   ; 051
+.d32 Data08157861                   ; 052
+.d32 Data08157867                   ; 053
+.d32 Data08157889                   ; 054
+.d32 Data0815788F                   ; 055
+.d32 Data08157899                   ; 056
+.d32 Data0815789B                   ; 057
+.d32 Data081578C1                   ; 058
+.d32 Data081578C7                   ; 059
+.d32 Data08157933                   ; 05A
+.d32 Data08157966                   ; 05B
+.d32 Data081579D7                   ; 05C
+.d32 Data081579E5                   ; 05D
+.d32 Data08157A93                   ; 05E
+.d32 Data08157AFF                   ; 05F
+.d32 Data08157B1D                   ; 060
+.d32 Data08157B67                   ; 061
+.d32 Data08157B71                   ; 062
+.d32 Data08157BA3                   ; 063
+.d32 Data08157BB1                   ; 064
+.d32 Data08157BD3                   ; 065
+.d32 Data08157C09                   ; 066
+.d32 Data08157C63                   ; 067
+.d32 Data08157C8D                   ; 068
+.d32 Data08157CD7                   ; 069
+.d32 Data08157D01                   ; 06A
+.d32 Data08157D73                   ; 06B
+.d32 Data08157DAD                   ; 06C
+.d32 Data08157E23                   ; 06D
+.d32 Data08157E5D                   ; 06E
+.d32 Data08157EAB                   ; 06F
+.d32 Data08157EC9                   ; 070
+.d32 Data08157EE1                   ; 071
+.d32 Data08157EE3                   ; 072
+.d32 Data08157EE9                   ; 073
+.d32 Data08157F0F                   ; 074
+.d32 Data08157F25                   ; 075
+.d32 Data08157F2F                   ; 076
+.d32 Data08157F49                   ; 077
+.d32 Data08157F77                   ; 078
+.d32 Data08157F81                   ; 079
+.d32 Data08157FC3                   ; 07A
+.d32 Data08158015                   ; 07B
+.d32 Data0815805B                   ; 07C
+.d32 Data08158069                   ; 07D
+.d32 Data08158093                   ; 07E
+.d32 Data0815809D                   ; 07F
+.d32 Data081580E7                   ; 080
+.d32 Data08158135                   ; 081
+.d32 Data0815813B                   ; 082
+.d32 Data08158155                   ; 083
+.d32 Data08158197                   ; 084
+.d32 Data081581D5                   ; 085
+.d32 Data081581E7                   ; 086
+.d32 Data081581F9                   ; 087
+.d32 Data08158247                   ; 088
+.d32 Data0815828D                   ; 089
+.d32 Data081582BB                   ; 08A
+.d32 Data081582E9                   ; 08B
+.d32 Data081582EF                   ; 08C
+.d32 Data08158321                   ; 08D
+.d32 Data0815836F                   ; 08E
+.d32 Data081583B5                   ; 08F
+.d32 Data081583FB                   ; 090
+.d32 Data08158409                   ; 091
+.d32 Data0815841D                   ; 092
+.d32 Data08158461                   ; 093
+.d32 Data08158477                   ; 094
+.d32 Data08158481                   ; 095
+.d32 Data0815848B                   ; 096
+.d32 Data081584C6                   ; 097
+.d32 Data08158518                   ; 098
+.d32 Data08158580                   ; 099
+.d32 Data081585BB                   ; 09A
+.d32 Data08158641                   ; 09B
+.d32 Data08158655                   ; 09C
+.d32 Data08158687                   ; 09D
+.d32 Data0815869B                   ; 09E
+.d32 Data081586BD                   ; 09F
+.d32 Data081586D3                   ; 0A0
+.d32 Data081586DD                   ; 0A1
+.d32 Data081586EF                   ; 0A2
+.d32 Data08158733                   ; 0A3
+.d32 Data0815875D                   ; 0A4
+.d32 Data081587BF                   ; 0A5
+.d32 Data081587C9                   ; 0A6
+.d32 Data08158807                   ; 0A7
+.d32 Data08158855                   ; 0A8
+.d32 Data081588A7                   ; 0A9
+.d32 Data081588C1                   ; 0AA
+.d32 Data081588C7                   ; 0AB
+.d32 Data081588CD                   ; 0AC
+.d32 Data081588D3                   ; 0AD
+.d32 Data081588E3                   ; 0AE
+.d32 Data081588ED                   ; 0AF
+.d32 Data08158959                   ; 0B0
+.d32 Data0815895F                   ; 0B1
+.d32 Data08158965                   ; 0B2
+.d32 Data08158974                   ; 0B3
+.d32 Data081589B2                   ; 0B4
+.d32 Data081589E4                   ; 0B5
+.d32 Data08158A1A                   ; 0B6
+.d32 Data08158A38                   ; 0B7
+.d32 Data08158A54                   ; 0B8
+.d32 Data08158A66                   ; 0B9
+.d32 Data08158A74                   ; 0BA
+.d32 Data08158A88                   ; 0BB
+.d32 Data08158A9C                   ; 0BC
+.d32 Data08158AA6                   ; 0BD
+.d32 Data08158AAC                   ; 0BE
+.d32 Data08158ACA                   ; 0BF
+.d32 Data08158AD0                   ; 0C0
+.d32 Data08158B74                   ; 0C1
+.d32 Data08158B82                   ; 0C2
+.d32 Data08158B8C                   ; 0C3
+.d32 Data08158B92                   ; 0C4
+.d32 Data08158C0C                   ; 0C5
+.d32 Data08158C56                   ; 0C6
+.d32 Data08158C94                   ; 0C7
+.d32 Data08158D24                   ; 0C8
+.d32 Data08158D77                   ; 0C9
+.d32 Data08158D8A                   ; 0CA
+.d32 Data08158DE6                   ; 0CB
+.d32 Data08158E04                   ; 0CC
+.d32 Data08158E0A                   ; 0CD
+.d32 Data08158E10                   ; 0CE
+.d32 Data08158E16                   ; 0CF
+.d32 Data08158E21                   ; 0D0
+.d32 Data08158EA3                   ; 0D1
+.d32 Data08158EC1                   ; 0D2
+.d32 Data08158ECF                   ; 0D3
+.d32 Data08158EFE                   ; 0D4
+.d32 Data08158F23                   ; 0D5
+.d32 Data08158F5D                   ; 0D6
+.d32 Data08158F88                   ; 0D7
+.d32 Data08158FD5                   ; 0D8
+.d32 Data08158FF7                   ; 0D9
+.d32 Data08159055                   ; 0DA
+.d32 Data08159060                   ; 0DB
+.d32 Data08159082                   ; 0DC
+.d32 Data081590F8                   ; 0DD
+.d32 Data0815911E                   ; 0DE
+.d32 Data08159161                   ; 0DF
+.d32 Data08159173                   ; 0E0
+.d32 Data081591A6                   ; 0E1
+.d32 Data081591C8                   ; 0E2
+.d32 Data081591E9                   ; 0E3
+.d32 Data08159203                   ; 0E4
+.d32 Data08159213                   ; 0E5
+.d32 Data08159263                   ; 0E6
+.d32 Data0815929F                   ; 0E7
+.d32 Data081592F8                   ; 0E8
+.d32 Data08159357                   ; 0E9
+.d32 Data081593EA                   ; 0EA
+.d32 Data0815943E                   ; 0EB
+.d32 Data081594C4                   ; 0EC
+.d32 Data081594CA                   ; 0ED
+.d32 Data081594D0                   ; 0EE
+.d32 Data08159526                   ; 0EF
+.d32 Data08159564                   ; 0F0
+.d32 Data081595AE                   ; 0F1
+.d32 Data08159600                   ; 0F2
+.d32 Data08159662                   ; 0F3
+.d32 Data0815969C                   ; 0F4
+.d32 Data08159706                   ; 0F5
+.d32 Data08159774                   ; 0F6
+.d32 Data081597DA                   ; 0F7
+.d32 Data08159848                   ; 0F8
+.d32 Data081598C2                   ; 0F9
+.d32 Data081598C8                   ; 0FA
+.d32 Data081598CE                   ; 0FB
+.d32 Data081598D4                   ; 0FC
+.d32 Data081598DA                   ; 0FD
+.d32 Data081598E0                   ; 0FE
+.d32 Data081598E6                   ; 0FF
+.d32 Data081598F4                   ; 100
+.d32 Data08159902                   ; 101
+.d32 Data08159908                   ; 102
+.d32 Data0815990E                   ; 103
+.d32 Data08159914                   ; 104
+.d32 Data08159922                   ; 105
+.d32 Data0815995C                   ; 106
+SublevelSecHeaderPtrs:              ; 08125ECC
 .d32 Data0814DEA0, Data0814DEC0, Data0814DEE0, Data0814DF00
 .d32 Data0814DF20, Data0814DF40, Data0814DF60, Data0814DF80
 .d32 Data0814DFA0, Data0814DFC0, Data0814DFE0, Data0814E000
@@ -1660,7 +1858,7 @@ Data08127070:                       ; 08127070
 .d32 0x010800AB
 Data08127084:                       ; 08127084
 .d32 0x090C0401, 0x000D0E03
-ObjType1Ptrs_Tileset1_Shared:                   ; 0812708C
+ObjType1Ptrs_Tileset1_Shared:       ; 0812708C
 .d32 Sub08017138+1, Sub08017138+1, Sub08017138+1, Sub08017138+1
 .d32 Sub08017418+1, Sub08017418+1, Sub08017418+1, Sub08017418+1
 .d32 Sub080175CC+1, Sub08017768+1, Sub08017974+1, Sub08017980+1
@@ -1694,7 +1892,7 @@ ObjType1Ptrs_Tileset1_Shared:                   ; 0812708C
 .d32 Sub0801A01C+1, Sub0801A19C+1, Sub0801A22C+1, Sub0801A2BC+1
 .d32 Sub0801A310+1, Sub0801A380+1, Sub0801A3FC+1, Sub0801A450+1
 .d32 Sub0801A4D8+1
-ObjType0Ptrs_Tileset1_Shared:                   ; 08127290
+ObjType0Ptrs_Tileset1_Shared:       ; 08127290
 .d32 Sub08018880+1, Sub08018890+1, Sub080188A0+1, Sub080188B0+1
 .d32 Sub08018910+1, Sub080188CC+1, Sub0801895C+1, Sub08018998+1
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -2007,7 +2205,7 @@ DataPtrs0812760C:                   ; 0812760C
 .d32 Data0812754F, Data081275ED, Data081275F5, Data08127598
 Data0812780C:                       ; 0812780C
 .d32 0x0089880C
-ObjType1Ptrs_Tileset3_E:                   ; 08127810
+ObjType1Ptrs_Tileset3_E:            ; 08127810
 .d32 Sub0801AB68+1, Sub0801ADA0+1, Sub0801AF7C+1, Sub0801B1B8+1
 .d32 Sub0801AB68+1, Sub0801ADA0+1, Sub0801AF7C+1, Sub0801B1B8+1
 .d32 Sub0801AB68+1, Sub0801ADA0+1, Sub0801AF7C+1, Sub0801B1B8+1
@@ -2029,7 +2227,7 @@ ObjType1Ptrs_Tileset3_E:                   ; 08127810
 .d32 Sub0801C2C8+1, Sub0801C374+1, Sub0801C39C+1, Sub0801C3BC+1
 .d32 Sub0801C3BC+1, Return0801C3B8+1, Sub08017884+1, Sub0801C430+1
 .d32 Sub0801C484+1
-ObjType0Ptrs_Tileset3_E:                   ; 08127954
+ObjType0Ptrs_Tileset3_E:            ; 08127954
 .d32 Sub0801C598+1, Sub0801C598+1, Sub0801C598+1, Sub0801C598+1
 .d32 Sub0801C598+1, Sub0801C598+1, Sub0801C598+1, Sub0801C598+1
 .d32 Sub0801C598+1, Sub0801C598+1, Sub0801C598+1, Sub0801C598+1
@@ -2101,7 +2299,7 @@ Data08127AA0:                       ; 08127AA0
 .d16 0xC6C4
 Data08127AA2:                       ; 08127AA2
 .d16 0xD08D
-ObjType1Ptrs_Tileset4_C:                   ; 08127B84
+ObjType1Ptrs_Tileset4_C:            ; 08127B84
 .d32 Sub0801CBAC+1, Sub0801CC10+1, Sub0801CC10+1, Sub0801CD4C+1
 .d32 Sub0801CDEC+1, Sub0801CE74+1, Sub0801CE74+1, Sub0801CFC4+1
 .d32 Sub0801D020+1, Sub0801D07C+1, Sub0801D104+1, Sub0801D6B8+1
@@ -2116,7 +2314,7 @@ ObjType1Ptrs_Tileset4_C:                   ; 08127B84
 .d32 Sub08018248+1, Sub0801D3F0+1, Sub0801D3F0+1, Sub0801D3F0+1
 .d32 Sub0801D4D8+1, Sub0801D580+1, Sub0801D580+1, Sub0801D5A0+1
 .d32 Sub0801D5AC+1, Sub08017974+1, Sub0801D7A8+1, Sub0801D7EC+1
-ObjType0Ptrs_Tileset4_C:                   ; 08127B84
+ObjType0Ptrs_Tileset4_C:            ; 08127B84
 .d32 Return0801D81C+1, Return0801D820+1, Sub0801D8C0+1, Sub0801D8CC+1
 .d32 Sub0801D8D8+1, Sub08018910+1, Sub0801D924+1, Sub0801D924+1
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -2190,7 +2388,7 @@ Data08127C8E:                       ; 08127C8E
 .d16 0x0D0C, 0x0F0E, 0x1110
 Data08127C94:                       ; 08127C94
 .d32 0x00000706
-ObjType1Ptrs_Tileset6_7_8:                   ; 08127C98
+ObjType1Ptrs_Tileset6_7_8:          ; 08127C98
 .d32 Sub0801DAF0+1, Sub0801DC60+1, Sub0801DD40+1, Return0801DE00+1
 .d32 Return0801DE04+1, Return0801DE08+1, Return0801DE0C+1, Return0801DE10+1
 .d32 Return0801DE14+1, Sub0801DE18+1, Sub0801DE68+1, Sub0801DF08+1
@@ -2206,7 +2404,7 @@ ObjType1Ptrs_Tileset6_7_8:                   ; 08127C98
 .d32 Sub0801E120+1, Sub0801E1F4+1, Sub0801E304+1, Sub0801E348+1
 .d32 Sub0801D5A0+1, Sub0801E398+1, Sub0801E400+1, Sub0801D4D8+1
 .d32 Sub0801E080+1, Sub0801E444+1, Sub0801E5A4+1, Sub0801E694+1
-ObjType0Ptrs_Tileset6_7_8:                   ; 08127D88
+ObjType0Ptrs_Tileset6_7_8:          ; 08127D88
 .d32 Sub0801E744+1, Sub0801E744+1, Sub0801E744+1, Sub0801E744+1
 .d32 Sub0801E7D0+1, Sub0801E7D0+1, Sub0801E7D0+1, Sub0801E7D0+1
 .d32 Sub0801E824+1, Sub0801E91C+1, Sub08018910+1, Sub0801EA3C+1
@@ -2298,7 +2496,7 @@ Data08127F17:                       ; 08127F17
 .d8 0x00, 0x18
 Data08127F19:                       ; 08127F19
 .d8 0x03, 0x02, 0x00
-ObjType1Ptrs_Tileset5_B_D:                   ; 08127F1C
+ObjType1Ptrs_Tileset5_B_D:          ; 08127F1C
 .d32 Sub0801EE00+1, Sub0801EE00+1, Sub0801EE00+1, Sub0801EE00+1
 .d32 Sub0801EE00+1, Sub0801EE00+1, Sub0801EE00+1, Sub0801EF9C+1
 .d32 Sub0801F06C+1, Sub0801F160+1, Sub0801F160+1, Sub0801F200+1
@@ -2313,7 +2511,7 @@ ObjType1Ptrs_Tileset5_B_D:                   ; 08127F1C
 .d32 Sub08018248+1, Sub0801F51C+1, Sub0801F604+1, Sub0801F6EC+1
 .d32 Sub0801F7A4+1, Sub0801C374+1, Sub0801835C+1, Sub08021F78+1
 .d32 Sub0801F848+1
-ObjType0Ptrs_Tileset5_B_D:                   ; 08127FF0
+ObjType0Ptrs_Tileset5_B_D:          ; 08127FF0
 .d32 Sub0801F8C0+1, Sub0801F8C0+1, Sub0801F8F8+1, Sub0801FA48+1
 .d32 Sub0801FA88+1, Return0801FB98+1, Sub0801FB9C+1, Sub0801FB9C+1
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -2362,7 +2560,7 @@ Data0812812C:                       ; 0812812C
 Data0812812F:                       ; 0812812F
 .d8 0x55, 0x56, 0x57, 0x58, 0x59, 0x5A, 0x5B, 0x5C
 .d8 0x5D
-ObjType1Ptrs_Tileset9:                   ; 08128138
+ObjType1Ptrs_Tileset9:              ; 08128138
 .d32 Sub0801FDD8+1, Sub0801FEA0+1, Sub0801FF90+1, Sub08020088+1
 .d32 Sub080200C4+1, Sub08020148+1, Sub0802019C+1, Sub08020260+1
 .d32 Sub08020328+1, Sub080203F4+1, Sub080204AC+1, Sub080205C0+1
@@ -2379,7 +2577,7 @@ ObjType1Ptrs_Tileset9:                   ; 08128138
 .d32 Sub08020A2C+1, Sub08020A38+1, Sub08020A8C+1, Sub08020BBC+1
 .d32 Sub08020C0C+1, Sub08020C50+1, Sub0801835C+1, Sub08017884+1
 .d32 Sub08020CA0+1, Sub08020CF8+1, Sub08020D4C+1, Sub08020E0C+1
-ObjType0Ptrs_Tileset9:                   ; 08128238
+ObjType0Ptrs_Tileset9:              ; 08128238
 .d32 Sub08020F5C+1, Sub08021068+1, Sub080211A4+1, Sub080212EC+1
 .d32 Sub08021450+1, Sub08021504+1, Sub080215A4+1, Sub080215CC+1
 .d32 Sub080215CC+1, Sub08021608+1, Return080216B4+1, Sub08018910+1
@@ -2471,7 +2669,7 @@ Data0812848C:                       ; 0812848C
 .d32 0x9A999897
 Data08128490:                       ; 08128490
 .d32 0x18171615
-ObjType1Ptrs_Tileset2:                   ; 08128494
+ObjType1Ptrs_Tileset2:              ; 08128494
 .d32 Sub08021978+1, Sub08021984+1, Sub08021990+1, Sub08021A24+1
 .d32 Sub08021A24+1, Sub08021A7C+1, Return08021AD8+1, Return08021ADC+1
 .d32 Sub08021AE0+1, Sub08021C48+1, Sub08021C54+1, Sub08021CC4+1
@@ -2487,7 +2685,7 @@ ObjType1Ptrs_Tileset2:                   ; 08128494
 .d32 Sub08021F78+1, Sub0801D580+1, Sub0801D580+1, Sub0801CFC4+1
 .d32 Sub0801D020+1, Sub0801D07C+1, Sub0801D104+1, Sub0801D194+1
 .d32 Sub0801D23C+1, Sub0802208C+1, Sub0801D4D8+1, Sub08022098+1
-ObjType0Ptrs_Tileset2:                   ; 08128584
+ObjType0Ptrs_Tileset2:              ; 08128584
 .d32 Sub08018910+1, Sub08022164+1, Sub080221B0+1, Sub080221DC+1
 .d32 Sub080222B4+1, Sub080222E0+1, Sub080188CC+1, Sub0802230C+1
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -2583,7 +2781,7 @@ Data08128778:                       ; 08128778
 .d16 0x0C00
 Data0812877A:                       ; 0812877A
 .d16 0x0201
-ObjType1Ptrs_TilesetA:                   ; 0812877C
+ObjType1Ptrs_TilesetA:              ; 0812877C
 .d32 Sub080225CC+1, Sub08022670+1, Sub08022670+1, Sub08022738+1
 .d32 Sub080227A4+1, Sub08022800+1, Sub08022994+1, Sub080229E0+1
 .d32 Sub08022A34+1, Sub08022A94+1, Sub08022B08+1, Sub08022B4C+1
@@ -2599,7 +2797,7 @@ ObjType1Ptrs_TilesetA:                   ; 0812877C
 .d32 Sub08022E08+1, Sub08022F14+1, Sub08023048+1, Sub08023094+1
 .d32 Sub08023120+1, Sub08023204+1, Sub080232C4+1, Sub08023310+1
 .d32 Sub08023370+1, Sub080233C0+1, Sub080233E4+1
-ObjType0Ptrs_TilesetA:                   ; 08128868
+ObjType0Ptrs_TilesetA:              ; 08128868
 .d32 Sub0802349C+1, Sub0802349C+1, Sub0802349C+1, Sub0802349C+1
 .d32 Sub0802349C+1, Sub0802349C+1, Sub0802349C+1, Sub0802349C+1
 .d32 Sub0802349C+1, Sub0802349C+1, Sub08023580+1, Sub0802358C+1
@@ -2640,7 +2838,7 @@ Data081289A3:                       ; 081289A3
 .d8 0x87, 0x88, 0x89, 0x8A, 0x00
 CodePtrs081289A8:                   ; 081289A8
 .d32 Sub080239D4+1
-ObjType0Ptrs_TilesetF_10_11:                   ; 081289AC
+ObjType0Ptrs_TilesetF_10_11:        ; 081289AC
 .d32 Sub08023A3C+1, Sub08023AF4+1, Sub08023B58+1, Sub08023BF8+1
 .d32 Sub08023C5C+1, Sub08023D2C+1, Sub08023DE8+1
 Data081289C8:                       ; 081289C8
@@ -16503,7 +16701,7 @@ Data081570C8:                       ; 081570C8
 Data081570CA:                       ; 081570CA
 .d16 0x0101, 0x00A7, 0x0030, 0x115F, 0x0014, 0x1460, 0x0014, 0x346C
 .d16 0x0018, 0x366C, 0x0018, 0x386C, 0xFF18
-DataPtrs081570E4:                   ; 081570E4
+Data081570E4:                       ; 081570E4
 .d16 0x0001, 0x083C, 0x0015, 0x383C, 0xFF11
 Data081570EE:                       ; 081570EE
 .d16 0x0001, 0x0D58, 0x0004, 0x1158, 0x0011, 0x1B6C, 0x0018, 0x1C61
