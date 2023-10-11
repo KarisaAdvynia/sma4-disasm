@@ -26,17 +26,17 @@
 08136390          Data08136390_LZ77.bin
 08136834          Data08136834_LZ77.bin
 08136CE0 0813719C Data08136CE0_LZ77.bin
-08138510 08138EF8 L1_8x8Tilemaps_0.bin
-08138F00          L1_8x8Tilemaps_F_10_11.bin
-08139700 0813A030 L1_8x8Tilemaps_5_B_D.bin
-0813A038 0813ADF8 L1_8x8Tilemaps_1.bin
-0813AE00 0813B730 L1_8x8Tilemaps_3_E.bin
-0813B738 0813C068 L1_8x8Tilemaps_2.bin
-0813C070 0813C9A0 L1_8x8Tilemaps_4_C.bin
-0813C9A8 0813D1A8 L1_8x8Tilemaps_12.bin
-0813D1B0 0813DAE0 L1_8x8Tilemaps_6_7_8.bin
-0813DAE8 0813E418 L1_8x8Tilemaps_9.bin
-0813E420 0813ED50 L1_8x8Tilemaps_A.bin
+08138510 08138EF8 Tilemaps/L1_8x8_0.bin
+08138F00          Tilemaps/L1_8x8_F_10_11.bin
+08139700 0813A030 Tilemaps/L1_8x8_5_B_D.bin
+0813A038 0813ADF8 Tilemaps/L1_8x8_1.bin
+0813AE00 0813B730 Tilemaps/L1_8x8_3_E.bin
+0813B738 0813C068 Tilemaps/L1_8x8_2.bin
+0813C070 0813C9A0 Tilemaps/L1_8x8_4_C.bin
+0813C9A8 0813D1A8 Tilemaps/L1_8x8_12.bin
+0813D1B0 0813DAE0 Tilemaps/L1_8x8_6_7_8.bin
+0813DAE8 0813E418 Tilemaps/L1_8x8_9.bin
+0813E420 0813ED50 Tilemaps/L1_8x8_A.bin
 0813F5B0 0813F7DA Data0813F5B0.bin
 0813FB9A 0813FE12 Data0813FB9A.bin
 0813FF57 08140185 Data0813FF57.bin
@@ -563,3 +563,43 @@
 083E07A4          Sound/Data083E07A4.bin
 083E0EC4          Sound/Data083E0EC4.bin
 083E15E4 083E1604 Sound/Data083E15E4.bin
+08400000          eLevels/S01_Classic_World_1-1.bin
+08400800          eLevels/S02_Classic_World_1-2.bin
+08401000          eLevels/S03_Classic_World_1-3.bin
+08401800          eLevels/S04_Classic_World_1-4.bin
+08402000          eLevels/S05_Classic_World_2-2.bin
+08402800          eLevels/M01_Wild_Ride_in_the_Sky.bin
+08403000          eLevels/M02_Slidin'_the_Slopes.bin
+08403800          eLevels/M03_Vegetable_Volley.bin
+08404000          eLevels/M04_Doors_o'_Plenty.bin
+08404800          eLevels/M05_Bombarded_by_Bob-ombs.bin
+08405000          eLevels/M06_Magical_Note_Blocks.bin
+08405800          eLevels/M07_The_ol'_Switcheroo.bin
+08406000          eLevels/M08_Piped_Full_of_Plants.bin
+08406800          eLevels/M09_Swinging_Bars_of_Doom.bin
+08407000          eLevels/M10_Para_Beetle_Challenge.bin
+08407800          eLevels/M11_A_Musical_Trek.bin
+08408000          eLevels/M12_Armored_Airship.bin
+08408800          eLevels/M13_Ice_Dungeon.bin
+08409000          eLevels/M14_A_Sky-High_Adventure.bin
+08409800          eLevels/M15_Sea_to_Sky.bin
+0840A000          eLevels/M16_It's_a_Shoe-In.bin
+0840A800          eLevels/M17_Slip_Slidin'_Away.bin
+0840B000          eLevels/M18_Ice_Cubed.bin
+0840B800          eLevels/M19_Puzzling_Pipe_Maze.bin
+0840C000          eLevels/M20_A_Towering_Tour.bin
+0840C800          eLevels/M21_Castle_Dash.bin
+0840D000          eLevels/M22_Rich_with_Ropes.bin
+0840D800          eLevels/M23_Vexing_Doors.bin
+0840E000          eLevels/M24_Caped_Escape.bin
+0840E800          eLevels/M25_Ground_Work.bin
+0840F000          eLevels/M26_An_Aqueous_Adventure.bin
+0840F800          eLevels/M27_Bowser's_Last_Stand.bin
+08410000          eLevels/M28_Koopaling_Confusion.bin
+08410800          eLevels/M29_Bowser's_Airship_1.bin
+08411000          eLevels/M30_Bowser's_Airship_2.bin
+08411800          eLevels/PR1_Airship's_Revenge.bin
+08412000          eLevels/PR2_No_Time_to_Dawdle!.bin
+08412800 08413000 eLevels/PR3_Treacherous_Halls.bin
+08424000 08424600 Data08424000.bin
+08425040 08425940 Graphics/eCoins.bin

@@ -31,10 +31,16 @@ def importbinptrs(binptrpath):
 
 def exportbin(sourcepath, outputdir, binptrpath):
     ptrmap = importbinptrs(binptrpath)
+    maxptr = sourcepath.stat().st_size + 0x08000000
 
+    filecount = 0
     with sourcepath.open("rb") as f:
         outputdir = Path(outputdir)
         for startptr, length, pathstr in ptrmap:
+            if startptr >= maxptr:
+                # don't try to export Wii U patch files if not on Wii U patch
+                continue
+
             f.seek(startptr - 0x08000000)
             data = f.read(length)
 
@@ -48,7 +54,9 @@ def exportbin(sourcepath, outputdir, binptrpath):
 
             # create file
             exportpath.open("wb").write(data)
-        print(f"Extracted {len(ptrmap)} files.")
+            filecount += 1
+
+    print(f"Extracted {filecount} files.")
 
 if __name__ == "__main__":
     # search for the source ROM outside the disassembly directory
@@ -73,7 +81,7 @@ if __name__ == "__main__":
             errstr = type(err).__name__ + ": " + errstr
         print(errstr)
         print("This script needs a source ROM to extract data. "
-              "Either include a file named 'sma3.gba' in the directory, or include exactly one .gba file.")
+              "Either include a file named 'sma4.gba' in the directory, or include exactly one .gba file.")
         input()
         import sys
         sys.exit()

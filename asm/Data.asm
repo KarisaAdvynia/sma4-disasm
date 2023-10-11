@@ -7295,45 +7295,45 @@ Data0813850C:                       ; 0813850C
 Data0813850E:                       ; 0813850E
 .d16 0x0014
 L1_8x8Tilemaps_0:                   ; 08138510
-.incbin "../data/L1_8x8Tilemaps_0.bin"
+.incbin "../data/Tilemaps/L1_8x8_0.bin"
 Data08138EF8:                       ; 08138EF8
 .d32 0xE9BF6703, 0xE9BF6703
 L1_8x8Tilemaps_F_10_11:             ; 08138F00
-.incbin "../data/L1_8x8Tilemaps_F_10_11.bin"
+.incbin "../data/Tilemaps/L1_8x8_F_10_11.bin"
 L1_8x8Tilemaps_5_B_D:               ; 08139700
-.incbin "../data/L1_8x8Tilemaps_5_B_D.bin"
+.incbin "../data/Tilemaps/L1_8x8_5_B_D.bin"
 Data0813A030:                       ; 0813A030
 .d32 0xE296471F, 0xEE96472E
 L1_8x8Tilemaps_1:                   ; 0813A038
-.incbin "../data/L1_8x8Tilemaps_1.bin"
+.incbin "../data/Tilemaps/L1_8x8_1.bin"
 Data0813ADF8:                       ; 0813ADF8
 .d32 0xE2A05025, 0xF0AD532D
 L1_8x8Tilemaps_3_E:                 ; 0813AE00
-.incbin "../data/L1_8x8Tilemaps_3_E.bin"
+.incbin "../data/Tilemaps/L1_8x8_3_E.bin"
 Data0813B730:                       ; 0813B730
 .d32 0xE2995F25, 0xF0A65F2E
 L1_8x8Tilemaps_2:                   ; 0813B738
-.incbin "../data/L1_8x8Tilemaps_2.bin"
+.incbin "../data/Tilemaps/L1_8x8_2.bin"
 Data0813C068:                       ; 0813C068
 .d32 0xE29B5A11, 0xE29B5A12
 L1_8x8Tilemaps_4_C:                 ; 0813C070
-.incbin "../data/L1_8x8Tilemaps_4_C.bin"
+.incbin "../data/Tilemaps/L1_8x8_4_C.bin"
 Data0813C9A0:                       ; 0813C9A0
 .d32 0xF08A4A1F, 0xF08D4A2E
 L1_8x8Tilemaps_12:                  ; 0813C9A8
-.incbin "../data/L1_8x8Tilemaps_12.bin"
+.incbin "../data/Tilemaps/L1_8x8_12.bin"
 Data0813D1A8:                       ; 0813D1A8
 .d32 0xC1AD5032, 0xC1AD5032
 L1_8x8Tilemaps_6_7_8:               ; 0813D1B0
-.incbin "../data/L1_8x8Tilemaps_6_7_8.bin"
+.incbin "../data/Tilemaps/L1_8x8_6_7_8.bin"
 Data0813DAE0:                       ; 0813DAE0
 .d32 0xE2914C0A, 0xE2914C0B
 L1_8x8Tilemaps_9:                   ; 0813DAE8
-.incbin "../data/L1_8x8Tilemaps_9.bin"
+.incbin "../data/Tilemaps/L1_8x8_9.bin"
 Data0813E418:                       ; 0813E418
 .d32 0xE298552C, 0xE2AD552E
 L1_8x8Tilemaps_A:                   ; 0813E420
-.incbin "../data/L1_8x8Tilemaps_A.bin"
+.incbin "../data/Tilemaps/L1_8x8_A.bin"
 Data0813ED50:                       ; 0813ED50
 .d32 0xE29C5C24, 0xE2A65F24
 Data0813ED58:                       ; 0813ED58
