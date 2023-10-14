@@ -37,10 +37,6 @@ def exportbin(sourcepath, outputdir, binptrpath):
     with sourcepath.open("rb") as f:
         outputdir = Path(outputdir)
         for startptr, length, pathstr in ptrmap:
-            if startptr >= maxptr:
-                # don't try to export Wii U patch files if not on Wii U patch
-                continue
-
             f.seek(startptr - 0x08000000)
             data = f.read(length)
 
