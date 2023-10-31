@@ -14,7 +14,7 @@ This repository does not include in-game data files (graphics, sound, etc), whic
 - Run `exportbin.py` (in `scripts`) to create the `data` folder.
 
 ## Virtual Console differences
-This assembles the GBA version by default. Use `armips sma4-disasm.asm -definelabel wiiu 1` to assemble the Wii U VC version, which includes all 38 e-levels and code to load them. This will only work if the level/graphics data were extracted from the VC version originally; `exportbin.py` accounts for this.
+This assembles the GBA version by default. Use `armips sma4.asm -definelabel wiiu 1` to assemble the Wii U VC version, which includes all 38 e-levels and code to load them. This will only work if the level/graphics data were extracted from the VC version originally; `exportbin.py` accounts for this.
 
 ## Vanilla ROM hashes
 GBA:
