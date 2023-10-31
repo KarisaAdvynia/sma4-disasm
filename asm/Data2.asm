@@ -1,61 +1,61 @@
 Data0815F268:                       ; 0815F268
-.incbin "../data/Data0815F268.bin"
+.incbin "data/Data0815F268.bin"
 Data08163268:                       ; 08163268
-.incbin "../data/Data08163268.bin"
+.incbin "data/Data08163268.bin"
 Data08163768:                       ; 08163768
-.incbin "../data/Data08163768.bin"
+.incbin "data/Data08163768.bin"
 Data08167674:                       ; 08167674
-.incbin "../data/Data08167674.bin"
+.incbin "data/Data08167674.bin"
 Data0816AD5C:                       ; 0816AD5C
-.incbin "../data/Data0816AD5C.bin"
+.incbin "data/Data0816AD5C.bin"
 Data0816EA40:                       ; 0816EA40
-.incbin "../data/Data0816EA40.bin"
+.incbin "data/Data0816EA40.bin"
 Data081724F0:                       ; 081724F0
-.incbin "../data/Data081724F0.bin"
+.incbin "data/Data081724F0.bin"
 Data08176BE8:                       ; 08176BE8
-.incbin "../data/Data08176BE8.bin"
+.incbin "data/Data08176BE8.bin"
 Data0817A894:                       ; 0817A894
-.incbin "../data/Data0817A894.bin"
+.incbin "data/Data0817A894.bin"
 Data0817E14C:                       ; 0817E14C
-.incbin "../data/Data0817E14C.bin"
+.incbin "data/Data0817E14C.bin"
 Data08181878:                       ; 08181878
-.incbin "../data/Data08181878.bin"
+.incbin "data/Data08181878.bin"
 Data081824B4:                       ; 081824B4
-.incbin "../data/Data081824B4.bin"
+.incbin "data/Data081824B4.bin"
 Data08182CB4:                       ; 08182CB4
-.incbin "../data/Data08182CB4.bin"
+.incbin "data/Data08182CB4.bin"
 Data08186788:                       ; 08186788
-.incbin "../data/Data08186788.bin"
+.incbin "data/Data08186788.bin"
 Data08189AC0:                       ; 08189AC0
-.incbin "../data/Data08189AC0.bin"
+.incbin "data/Data08189AC0.bin"
 Data0818A6E4:                       ; 0818A6E4
-.incbin "../data/Data0818A6E4.bin"
+.incbin "data/Data0818A6E4.bin"
 Data0818AF80:                       ; 0818AF80
-.incbin "../data/Data0818AF80.bin"
+.incbin "data/Data0818AF80.bin"
 Data0818C914:                       ; 0818C914
-.incbin "../data/Data0818C914.bin"
+.incbin "data/Data0818C914.bin"
 Data0818FA98:                       ; 0818FA98
-.incbin "../data/Data0818FA98.bin"
+.incbin "data/Data0818FA98.bin"
 Data08190AC8:                       ; 08190AC8
-.incbin "../data/Data08190AC8.bin"
+.incbin "data/Data08190AC8.bin"
 Data08194A1C:                       ; 08194A1C
-.incbin "../data/Data08194A1C.bin"
+.incbin "data/Data08194A1C.bin"
 Data081965A0:                       ; 081965A0
-.incbin "../data/Data081965A0.bin"
+.incbin "data/Data081965A0.bin"
 Data081990B4:                       ; 081990B4
-.incbin "../data/Data081990B4.bin"
+.incbin "data/Data081990B4.bin"
 Data08199E74:                       ; 08199E74
-.incbin "../data/Data08199E74.bin"
+.incbin "data/Data08199E74.bin"
 Data0819E0B4:                       ; 0819E0B4
-.incbin "../data/Data0819E0B4.bin"
+.incbin "data/Data0819E0B4.bin"
 Data081A20B4:                       ; 081A20B4
-.incbin "../data/Data081A20B4.bin"
+.incbin "data/Data081A20B4.bin"
 Data081A60B4:                       ; 081A60B4
-.incbin "../data/Data081A60B4.bin"
+.incbin "data/Data081A60B4.bin"
 Data081AA0B4:                       ; 081AA0B4
-.incbin "../data/Data081AA0B4.bin"
+.incbin "data/Data081AA0B4.bin"
 Data081AE0B4:                       ; 081AE0B4
-.incbin "../data/Data081AE0B4.bin"
+.incbin "data/Data081AE0B4.bin"
 Data081AF4B4:                       ; 081AF4B4
 .d32 0x22222222, 0x99999992, 0x44444492, 0x49999492
 .d32 0x49449492, 0x49559492, 0x49559492, 0x49559492
@@ -74,35 +74,35 @@ Data081AF4B4:                       ; 081AF4B4
 .d32 0x22220000, 0x29520000, 0x29520000, 0x29520000
 .d32 0x29520000, 0x29520000, 0x29520000, 0x29520000
 Data081AF5B4:                       ; 081AF5B4
-.incbin "../data/Data081AF5B4.bin"
+.incbin "data/Data081AF5B4.bin"
 Data081AFCB4:                       ; 081AFCB4
-.incbin "../data/Data081AFCB4.bin"
+.incbin "data/Data081AFCB4.bin"
 Data081B08B4:                       ; 081B08B4
-.incbin "../data/Data081B08B4.bin"
+.incbin "data/Data081B08B4.bin"
 Data081B28F4:                       ; 081B28F4
-.incbin "../data/Data081B28F4.bin"
+.incbin "data/Data081B28F4.bin"
 Data081B58B4:                       ; 081B58B4
-.incbin "../data/Data081B58B4.bin"
+.incbin "data/Data081B58B4.bin"
 Data081B98B4:                       ; 081B98B4
-.incbin "../data/Data081B98B4.bin"
+.incbin "data/Data081B98B4.bin"
 Data081BD8B4:                       ; 081BD8B4
-.incbin "../data/Data081BD8B4.bin"
+.incbin "data/Data081BD8B4.bin"
 Data081C18B4:                       ; 081C18B4
-.incbin "../data/Data081C18B4.bin"
+.incbin "data/Data081C18B4.bin"
 Data081C58B4:                       ; 081C58B4
-.incbin "../data/Data081C58B4.bin"
+.incbin "data/Data081C58B4.bin"
 Data081C6CB4:                       ; 081C6CB4
-.incbin "../data/Data081C6CB4.bin"
+.incbin "data/Data081C6CB4.bin"
 Data081C70B4:                       ; 081C70B4
-.incbin "../data/Data081C70B4.bin"
+.incbin "data/Data081C70B4.bin"
 Data081C94B8:                       ; 081C94B8
-.incbin "../data/Data081C94B8.bin"
+.incbin "data/Data081C94B8.bin"
 Data081C97B4:                       ; 081C97B4
-.incbin "../data/Data081C97B4.bin"
+.incbin "data/Data081C97B4.bin"
 Data081C9D00:                       ; 081C9D00
-.incbin "../data/Data081C9D00.bin"
+.incbin "data/Data081C9D00.bin"
 Data081CA4E4:                       ; 081CA4E4
-.incbin "../data/Data081CA4E4.bin"
+.incbin "data/Data081CA4E4.bin"
 Data081CD3CC:                       ; 081CD3CC
 .d32 0x00040010, 0x70000026, 0xF0022001, 0x221FA001
 .d32 0x03102275, 0x3FD01FF0, 0x22035022, 0xF0FF1FA0
@@ -127,19 +127,19 @@ Data081CD468:                       ; 081CD468
 .d32 0x01F001F0, 0x01F001F0, 0xF001F0FF, 0xF001F001
 .d32 0xF001F001, 0xF001F001, 0x01F0E001, 0x01D001F0
 Data081CD518:                       ; 081CD518
-.incbin "../data/Data081CD518.bin"
+.incbin "data/Data081CD518.bin"
 Data081CE944:                       ; 081CE944
-.incbin "../data/Data081CE944.bin"
+.incbin "data/Data081CE944.bin"
 Data081CF558:                       ; 081CF558
-.incbin "../data/Data081CF558.bin"
+.incbin "data/Data081CF558.bin"
 Data081CF95C:                       ; 081CF95C
-.incbin "../data/Data081CF95C.bin"
+.incbin "data/Data081CF95C.bin"
 Data081D0110:                       ; 081D0110
-.incbin "../data/Data081D0110.bin"
+.incbin "data/Data081D0110.bin"
 Data081D0764:                       ; 081D0764
-.incbin "../data/Data081D0764.bin"
+.incbin "data/Data081D0764.bin"
 Data081D0B58:                       ; 081D0B58
-.incbin "../data/Data081D0B58.bin"
+.incbin "data/Data081D0B58.bin"
 Data081D0EB4:                       ; 081D0EB4
 .d32 0x00080010, 0x85028400, 0x87028602, 0x02880002
 .d32 0x02930289, 0x8B08028A, 0x3000FF02, 0x90029B01
@@ -162,17 +162,17 @@ Data081D0EB4:                       ; 081D0EB4
 .d32 0xF001F001, 0xFF01F001, 0x01F001F0, 0x01F001F0
 .d32 0x01F001F0, 0x01A001F0
 Data081D0FEC:                       ; 081D0FEC
-.incbin "../data/Data081D0FEC.bin"
+.incbin "data/Data081D0FEC.bin"
 Data081D17CC:                       ; 081D17CC
-.incbin "../data/Data081D17CC.bin"
+.incbin "data/Data081D17CC.bin"
 Data081D27CC:                       ; 081D27CC
-.incbin "../data/Data081D27CC.bin"
+.incbin "data/Data081D27CC.bin"
 Data081D2BA0:                       ; 081D2BA0
-.incbin "../data/Data081D2BA0.bin"
+.incbin "data/Data081D2BA0.bin"
 Data081D2ED0:                       ; 081D2ED0
-.incbin "../data/Data081D2ED0.bin"
+.incbin "data/Data081D2ED0.bin"
 Data081D3278:                       ; 081D3278
-.incbin "../data/Data081D3278.bin"
+.incbin "data/Data081D3278.bin"
 Data081D3588:                       ; 081D3588
 .d32 0x21F540F8, 0x00002390, 0x01F540F0, 0x00002390
 .d32 0x300300F8, 0x00002390, 0x100300F0, 0x00002390
@@ -700,7 +700,7 @@ Data081D50A0:                       ; 081D50A0
 .d32 0x1A190000, 0x02040000, 0x172D0A88, 0x01921FB1
 .d32 0x033F0258, 0x1A3F155A, 0x00AE1B1F, 0x0D740111
 Data081D5120:                       ; 081D5120
-.incbin "../data/Data081D5120.bin"
+.incbin "data/Data081D5120.bin"
 Data081D5340:                       ; 081D5340
 .d32 0x7FFF7F54, 0x2D6B0000, 0x56B54210, 0x1A3A6739
 .d32 0x539F371F, 0x3DF62D72, 0x11984E7A, 0x66CB774F
@@ -1276,7 +1276,7 @@ Data081D7028:                       ; 081D7028
 .d32 0xF001F001, 0xF001F001, 0x01F0FC01, 0x01F001F0
 .d32 0x01F001F0, 0x00000190
 Data081D7160:                       ; 081D7160
-.incbin "../data/Data081D7160.bin"
+.incbin "data/Data081D7160.bin"
 Data081D7558:                       ; 081D7558
 .d32 0x00080010, 0xF0005C3F, 0xF001F001, 0xF001F001
 .d32 0xFC01F001, 0x01F001F0, 0x01F001F0, 0x017001F0
@@ -1360,71 +1360,71 @@ Data081D7834:                       ; 081D7834
 .d32 0x01F001F0, 0xF001F0FF, 0xF001F001, 0xF001F001
 .d32 0xF001F001, 0x01F0E001, 0x010001F0
 Data081D7A30:                       ; 081D7A30
-.incbin "../data/Data081D7A30.bin"
+.incbin "data/Data081D7A30.bin"
 Data081D7F2C:                       ; 081D7F2C
-.incbin "../data/Data081D7F2C.bin"
+.incbin "data/Data081D7F2C.bin"
 Data081D8408:                       ; 081D8408
-.incbin "../data/Data081D8408.bin"
+.incbin "data/Data081D8408.bin"
 Data081D8810:                       ; 081D8810
-.incbin "../data/Data081D8810.bin"
+.incbin "data/Data081D8810.bin"
 Data081D8C60:                       ; 081D8C60
-.incbin "../data/Data081D8C60.bin"
+.incbin "data/Data081D8C60.bin"
 Data081D91C0:                       ; 081D91C0
-.incbin "../data/Data081D91C0.bin"
+.incbin "data/Data081D91C0.bin"
 Data081D96F0:                       ; 081D96F0
-.incbin "../data/Data081D96F0.bin"
+.incbin "data/Data081D96F0.bin"
 Data081D9C18:                       ; 081D9C18
-.incbin "../data/Data081D9C18.bin"
+.incbin "data/Data081D9C18.bin"
 Data081DA104:                       ; 081DA104
-.incbin "../data/Data081DA104.bin"
+.incbin "data/Data081DA104.bin"
 Data081DA678:                       ; 081DA678
-.incbin "../data/Data081DA678.bin"
+.incbin "data/Data081DA678.bin"
 Data081DAADC:                       ; 081DAADC
-.incbin "../data/Data081DAADC.bin"
+.incbin "data/Data081DAADC.bin"
 Data081DB000:                       ; 081DB000
-.incbin "../data/Data081DB000.bin"
+.incbin "data/Data081DB000.bin"
 Data081DB4EC:                       ; 081DB4EC
-.incbin "../data/Data081DB4EC.bin"
+.incbin "data/Data081DB4EC.bin"
 Data081DB948:                       ; 081DB948
-.incbin "../data/Data081DB948.bin"
+.incbin "data/Data081DB948.bin"
 Data081DBDE4:                       ; 081DBDE4
-.incbin "../data/Data081DBDE4.bin"
+.incbin "data/Data081DBDE4.bin"
 Data081DC338:                       ; 081DC338
-.incbin "../data/Data081DC338.bin"
+.incbin "data/Data081DC338.bin"
 Data081DC854:                       ; 081DC854
-.incbin "../data/Data081DC854.bin"
+.incbin "data/Data081DC854.bin"
 Data081DCCD4:                       ; 081DCCD4
-.incbin "../data/Data081DCCD4.bin"
+.incbin "data/Data081DCCD4.bin"
 Data081DD1B8:                       ; 081DD1B8
-.incbin "../data/Data081DD1B8.bin"
+.incbin "data/Data081DD1B8.bin"
 Data081DD6A0:                       ; 081DD6A0
-.incbin "../data/Data081DD6A0.bin"
+.incbin "data/Data081DD6A0.bin"
 Data081DDB88:                       ; 081DDB88
-.incbin "../data/Data081DDB88.bin"
+.incbin "data/Data081DDB88.bin"
 Data081DE0EC:                       ; 081DE0EC
-.incbin "../data/Data081DE0EC.bin"
+.incbin "data/Data081DE0EC.bin"
 Data081DE4D4:                       ; 081DE4D4
-.incbin "../data/Data081DE4D4.bin"
+.incbin "data/Data081DE4D4.bin"
 Data081DE8A4:                       ; 081DE8A4
-.incbin "../data/Data081DE8A4.bin"
+.incbin "data/Data081DE8A4.bin"
 Data081DED8C:                       ; 081DED8C
-.incbin "../data/Data081DED8C.bin"
+.incbin "data/Data081DED8C.bin"
 Data081DF1DC:                       ; 081DF1DC
-.incbin "../data/Data081DF1DC.bin"
+.incbin "data/Data081DF1DC.bin"
 Data081DF6D8:                       ; 081DF6D8
-.incbin "../data/Data081DF6D8.bin"
+.incbin "data/Data081DF6D8.bin"
 Data081DFB6C:                       ; 081DFB6C
-.incbin "../data/Data081DFB6C.bin"
+.incbin "data/Data081DFB6C.bin"
 Data081E0004:                       ; 081E0004
-.incbin "../data/Data081E0004.bin"
+.incbin "data/Data081E0004.bin"
 Data081E0510:                       ; 081E0510
-.incbin "../data/Data081E0510.bin"
+.incbin "data/Data081E0510.bin"
 Data081E09A0:                       ; 081E09A0
-.incbin "../data/Data081E09A0.bin"
+.incbin "data/Data081E09A0.bin"
 Data081E0F14:                       ; 081E0F14
-.incbin "../data/Data081E0F14.bin"
+.incbin "data/Data081E0F14.bin"
 Data081E13EC:                       ; 081E13EC
-.incbin "../data/Data081E13EC.bin"
+.incbin "data/Data081E13EC.bin"
 Data081E1908:                       ; 081E1908
 .d32 0x00080010, 0x7B047B00, 0x7C007C00, 0x07F0E004
 .d32 0x07D007F0, 0x00F8005C, 0x8B04018B, 0x8C008C00
@@ -1450,119 +1450,119 @@ Data081E1908:                       ; 081E1908
 .d32 0x01F001F0, 0x01F001F0, 0x01F001B1, 0xF001F0FC
 .d32 0xF001F001, 0xF001F001, 0x00000001
 Data081E1A74:                       ; 081E1A74
-.incbin "../data/Data081E1A74.bin"
+.incbin "data/Data081E1A74.bin"
 Data081E1F50:                       ; 081E1F50
-.incbin "../data/Data081E1F50.bin"
+.incbin "data/Data081E1F50.bin"
 Data081E2354:                       ; 081E2354
-.incbin "../data/Data081E2354.bin"
+.incbin "data/Data081E2354.bin"
 Data081E279C:                       ; 081E279C
-.incbin "../data/Data081E279C.bin"
+.incbin "data/Data081E279C.bin"
 Data081E2BE8:                       ; 081E2BE8
-.incbin "../data/Data081E2BE8.bin"
+.incbin "data/Data081E2BE8.bin"
 Data081E3140:                       ; 081E3140
-.incbin "../data/Data081E3140.bin"
+.incbin "data/Data081E3140.bin"
 Data081E366C:                       ; 081E366C
-.incbin "../data/Data081E366C.bin"
+.incbin "data/Data081E366C.bin"
 Data081E3B88:                       ; 081E3B88
-.incbin "../data/Data081E3B88.bin"
+.incbin "data/Data081E3B88.bin"
 Data081E4074:                       ; 081E4074
-.incbin "../data/Data081E4074.bin"
+.incbin "data/Data081E4074.bin"
 Data081E45E4:                       ; 081E45E4
-.incbin "../data/Data081E45E4.bin"
+.incbin "data/Data081E45E4.bin"
 Data081E4B08:                       ; 081E4B08
-.incbin "../data/Data081E4B08.bin"
+.incbin "data/Data081E4B08.bin"
 Data081E4FF4:                       ; 081E4FF4
-.incbin "../data/Data081E4FF4.bin"
+.incbin "data/Data081E4FF4.bin"
 Data081E5458:                       ; 081E5458
-.incbin "../data/Data081E5458.bin"
+.incbin "data/Data081E5458.bin"
 Data081E58F4:                       ; 081E58F4
-.incbin "../data/Data081E58F4.bin"
+.incbin "data/Data081E58F4.bin"
 Data081E5E40:                       ; 081E5E40
-.incbin "../data/Data081E5E40.bin"
+.incbin "data/Data081E5E40.bin"
 Data081E6350:                       ; 081E6350
-.incbin "../data/Data081E6350.bin"
+.incbin "data/Data081E6350.bin"
 Data081E67C8:                       ; 081E67C8
-.incbin "../data/Data081E67C8.bin"
+.incbin "data/Data081E67C8.bin"
 Data081E6CA0:                       ; 081E6CA0
-.incbin "../data/Data081E6CA0.bin"
+.incbin "data/Data081E6CA0.bin"
 Data081E7168:                       ; 081E7168
-.incbin "../data/Data081E7168.bin"
+.incbin "data/Data081E7168.bin"
 Data081E754C:                       ; 081E754C
-.incbin "../data/Data081E754C.bin"
+.incbin "data/Data081E754C.bin"
 Data081E7A30:                       ; 081E7A30
-.incbin "../data/Data081E7A30.bin"
+.incbin "data/Data081E7A30.bin"
 Data081E7F2C:                       ; 081E7F2C
-.incbin "../data/Data081E7F2C.bin"
+.incbin "data/Data081E7F2C.bin"
 Data081E8434:                       ; 081E8434
-.incbin "../data/Data081E8434.bin"
+.incbin "data/Data081E8434.bin"
 Data081E88BC:                       ; 081E88BC
-.incbin "../data/Data081E88BC.bin"
+.incbin "data/Data081E88BC.bin"
 Data081E8E50:                       ; 081E8E50
-.incbin "../data/Data081E8E50.bin"
+.incbin "data/Data081E8E50.bin"
 Data081E9330:                       ; 081E9330
-.incbin "../data/Data081E9330.bin"
+.incbin "data/Data081E9330.bin"
 Data081E9708:                       ; 081E9708
-.incbin "../data/Data081E9708.bin"
+.incbin "data/Data081E9708.bin"
 Data081E9BD4:                       ; 081E9BD4
-.incbin "../data/Data081E9BD4.bin"
+.incbin "data/Data081E9BD4.bin"
 Data081E9FB8:                       ; 081E9FB8
-.incbin "../data/Data081E9FB8.bin"
+.incbin "data/Data081E9FB8.bin"
 Data081EA3F4:                       ; 081EA3F4
-.incbin "../data/Data081EA3F4.bin"
+.incbin "data/Data081EA3F4.bin"
 Data081EA858:                       ; 081EA858
-.incbin "../data/Data081EA858.bin"
+.incbin "data/Data081EA858.bin"
 Data081EAD10:                       ; 081EAD10
-.incbin "../data/Data081EAD10.bin"
+.incbin "data/Data081EAD10.bin"
 Data081EB2D0:                       ; 081EB2D0
-.incbin "../data/Data081EB2D0.bin"
+.incbin "data/Data081EB2D0.bin"
 Data081EB734:                       ; 081EB734
-.incbin "../data/Data081EB734.bin"
+.incbin "data/Data081EB734.bin"
 Data081EBB60:                       ; 081EBB60
-.incbin "../data/Data081EBB60.bin"
+.incbin "data/Data081EBB60.bin"
 Data081EBFF0:                       ; 081EBFF0
-.incbin "../data/Data081EBFF0.bin"
+.incbin "data/Data081EBFF0.bin"
 Data081EC45C:                       ; 081EC45C
-.incbin "../data/Data081EC45C.bin"
+.incbin "data/Data081EC45C.bin"
 Data081EC928:                       ; 081EC928
-.incbin "../data/Data081EC928.bin"
+.incbin "data/Data081EC928.bin"
 Data081ECD38:                       ; 081ECD38
-.incbin "../data/Data081ECD38.bin"
+.incbin "data/Data081ECD38.bin"
 Data081ED250:                       ; 081ED250
-.incbin "../data/Data081ED250.bin"
+.incbin "data/Data081ED250.bin"
 Data081ED7B4:                       ; 081ED7B4
-.incbin "../data/Data081ED7B4.bin"
+.incbin "data/Data081ED7B4.bin"
 Data081EDBF0:                       ; 081EDBF0
-.incbin "../data/Data081EDBF0.bin"
+.incbin "data/Data081EDBF0.bin"
 Data081EE138:                       ; 081EE138
-.incbin "../data/Data081EE138.bin"
+.incbin "data/Data081EE138.bin"
 Data081EE66C:                       ; 081EE66C
-.incbin "../data/Data081EE66C.bin"
+.incbin "data/Data081EE66C.bin"
 Data081EEA6C:                       ; 081EEA6C
-.incbin "../data/Data081EEA6C.bin"
+.incbin "data/Data081EEA6C.bin"
 Data081EEEE0:                       ; 081EEEE0
-.incbin "../data/Data081EEEE0.bin"
+.incbin "data/Data081EEEE0.bin"
 Data081EF3F8:                       ; 081EF3F8
-.incbin "../data/Data081EF3F8.bin"
+.incbin "data/Data081EF3F8.bin"
 Data081EF8C0:                       ; 081EF8C0
-.incbin "../data/Data081EF8C0.bin"
+.incbin "data/Data081EF8C0.bin"
 Data081EFD88:                       ; 081EFD88
-.incbin "../data/Data081EFD88.bin"
+.incbin "data/Data081EFD88.bin"
 Data081F0000:                       ; 081F0000
-.incbin "../data/Data081F0000.bin"
+.incbin "data/Data081F0000.bin"
 Data081F021C:                       ; 081F021C
-.incbin "../data/Data081F021C.bin"
+.incbin "data/Data081F021C.bin"
 Data081F04A4:                       ; 081F04A4
-.incbin "../data/Data081F04A4.bin"
+.incbin "data/Data081F04A4.bin"
 Data081F08A0:                       ; 081F08A0
-.incbin "../data/Data081F08A0.bin"
+.incbin "data/Data081F08A0.bin"
 Data081F0AE0:                       ; 081F0AE0
-.incbin "../data/Data081F0AE0.bin"
+.incbin "data/Data081F0AE0.bin"
 Data081F0D4C:                       ; 081F0D4C
-.incbin "../data/Data081F0D4C.bin"
+.incbin "data/Data081F0D4C.bin"
 Data081F0FA8:                       ; 081F0FA8
-.incbin "../data/Data081F0FA8.bin"
+.incbin "data/Data081F0FA8.bin"
 Data081F11BC:                       ; 081F11BC
-.incbin "../data/Data081F11BC.bin"
+.incbin "data/Data081F11BC.bin"
 Data081F13CC:                       ; 081F13CC
 .d32 0x00100010, 0xF000FF3F, 0xF001F001, 0xF001F001
 .d32 0xFF01F001, 0x01F001F0, 0x01F001F0, 0x01F001F0
@@ -1622,7 +1622,7 @@ Data081F15C4:                       ; 081F15C4
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0x01F0F801
 .d32 0x01F001F0, 0x01D001F0
 Data081F173C:                       ; 081F173C
-.incbin "../data/Data081F173C.bin"
+.incbin "data/Data081F173C.bin"
 Data081F19B0:                       ; 081F19B0
 .d32 0x00080010, 0xF000FF3F, 0xF001F001, 0xF001F001
 .d32 0xF801F001, 0x01F001F0, 0x01F001F0, 0x039201F0
@@ -1645,13 +1645,13 @@ Data081F19B0:                       ; 081F19B0
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0xF001F0E0
 .d32 0x0001B001
 Data081F1AE4:                       ; 081F1AE4
-.incbin "../data/Data081F1AE4.bin"
+.incbin "data/Data081F1AE4.bin"
 Data081F20D4:                       ; 081F20D4
-.incbin "../data/Data081F20D4.bin"
+.incbin "data/Data081F20D4.bin"
 Data081F3040:                       ; 081F3040
-.incbin "../data/Data081F3040.bin"
+.incbin "data/Data081F3040.bin"
 Data081F3468:                       ; 081F3468
-.incbin "../data/Data081F3468.bin"
+.incbin "data/Data081F3468.bin"
 Data081F388C:                       ; 081F388C
 .d32 0x7FFF13CA, 0x7ECC1084, 0x7FD47F50, 0x36F7479B
 .d32 0x28D44FFC, 0x5A7F41BF, 0x16DF671F, 0x4BFF33BF
@@ -1662,9 +1662,9 @@ Data081F388C:                       ; 081F388C
 .d32 0x7FFF6E8F, 0x2A3B0000, 0x26DF221D, 0x01032B9F
 .d32 0x10842A94, 0x10841084, 0x10841084, 0x10841084
 Data081F390C:                       ; 081F390C
-.incbin "../data/Data081F390C.bin"
+.incbin "data/Data081F390C.bin"
 Data081F3FD4:                       ; 081F3FD4
-.incbin "../data/Data081F3FD4.bin"
+.incbin "data/Data081F3FD4.bin"
 Data081F43D8:                       ; 081F43D8
 .d32 0x00080010, 0x0163001C, 0x01F001F0, 0x026301F0
 .d32 0x10FD6300, 0x630610FD, 0xF00077FC, 0xF001F001
@@ -1684,33 +1684,33 @@ Data081F43D8:                       ; 081F43D8
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0xFE01F001
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0x00000130
 Data081F44E8:                       ; 081F44E8
-.incbin "../data/Data081F44E8.bin"
+.incbin "data/Data081F44E8.bin"
 Data081F4BD0:                       ; 081F4BD0
-.incbin "../data/Data081F4BD0.bin"
+.incbin "data/Data081F4BD0.bin"
 Data081F52C4:                       ; 081F52C4
-.incbin "../data/Data081F52C4.bin"
+.incbin "data/Data081F52C4.bin"
 Data081F579C:                       ; 081F579C
-.incbin "../data/Data081F579C.bin"
+.incbin "data/Data081F579C.bin"
 Data081F5C94:                       ; 081F5C94
-.incbin "../data/Data081F5C94.bin"
+.incbin "data/Data081F5C94.bin"
 Data081F612C:                       ; 081F612C
-.incbin "../data/Data081F612C.bin"
+.incbin "data/Data081F612C.bin"
 Data081F65EC:                       ; 081F65EC
-.incbin "../data/Data081F65EC.bin"
+.incbin "data/Data081F65EC.bin"
 Data081F6AC0:                       ; 081F6AC0
-.incbin "../data/Data081F6AC0.bin"
+.incbin "data/Data081F6AC0.bin"
 Data081F6EC8:                       ; 081F6EC8
-.incbin "../data/Data081F6EC8.bin"
+.incbin "data/Data081F6EC8.bin"
 Data081F72D0:                       ; 081F72D0
-.incbin "../data/Data081F72D0.bin"
+.incbin "data/Data081F72D0.bin"
 Data081F76B8:                       ; 081F76B8
-.incbin "../data/Data081F76B8.bin"
+.incbin "data/Data081F76B8.bin"
 Data081F7AA0:                       ; 081F7AA0
-.incbin "../data/Data081F7AA0.bin"
+.incbin "data/Data081F7AA0.bin"
 Data081F7E88:                       ; 081F7E88
-.incbin "../data/Data081F7E88.bin"
+.incbin "data/Data081F7E88.bin"
 Data081F8270:                       ; 081F8270
-.incbin "../data/Data081F8270.bin"
+.incbin "data/Data081F8270.bin"
 Data081F8658:                       ; 081F8658
 .d32 0x00060010, 0x22222200, 0x99999222, 0x0320C029
 .d32 0x22220180, 0x20000299, 0x00030090, 0x92073022
@@ -1987,7 +1987,7 @@ DataPtrs081F8DBC:                   ; 081F8DBC
 .d32 0x00320022, 0x00330023, 0x00340024, 0x001F000F
 .d32 0x001C000C, 0x001D000D, 0x001E000E, 0x00350025
 Data081F8F9C:                       ; 081F8F9C
-.incbin "../data/Data081F8F9C.bin"
+.incbin "data/Data081F8F9C.bin"
 Data081F9288:                       ; 081F9288
 .d32 0x7FFF71B1, 0x7FDD0000, 0x6A6A7F73, 0x00005146
 .d32 0x00000000, 0x00000000, 0x6BFF0000, 0x14A027FF
@@ -2067,7 +2067,7 @@ Data081F9602:                       ; 081F9602
 Data081F9612:                       ; 081F9612
 .d16 0x0008, 0x000A, 0x0000
 Data081F9618:                       ; 081F9618
-.incbin "../data/Data081F9618.bin"
+.incbin "data/Data081F9618.bin"
 Data081FBBA8:                       ; 081FBBA8
 .d32 0x7FFF7FD6, 0x631A35F2, 0x00000000, 0x7FFB7FFF
 .d32 0x7F977FB9, 0x7F537F75, 0x7FFD7F31, 0x7F377FBB
@@ -2201,17 +2201,17 @@ Data081FC1A8:                       ; 081FC1A8
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
 .d32 0x00000000, 0x00000000, 0x00000000, 0x5D697FFF
 Data081FC3A8:                       ; 081FC3A8
-.incbin "../data/Data081FC3A8.bin"
+.incbin "data/Data081FC3A8.bin"
 Data081FD3CC:                       ; 081FD3CC
-.incbin "../data/Data081FD3CC.bin"
+.incbin "data/Data081FD3CC.bin"
 Data082006BC:                       ; 082006BC
-.incbin "../data/Data082006BC.bin"
+.incbin "data/Data082006BC.bin"
 Data082036CC:                       ; 082036CC
-.incbin "../data/Data082036CC.bin"
+.incbin "data/Data082036CC.bin"
 Data08203CE0:                       ; 08203CE0
-.incbin "../data/Data08203CE0.bin"
+.incbin "data/Data08203CE0.bin"
 Data08206C80:                       ; 08206C80
-.incbin "../data/Data08206C80.bin"
+.incbin "data/Data08206C80.bin"
 Data08209BC0:                       ; 08209BC0
 .d32 0x00080010, 0xD181D000, 0xD381D281, 0x89D20081
 .d32 0x81D285D0, 0xD20485D1, 0xD289D389, 0x89D21100
@@ -2819,7 +2819,7 @@ Data0820B47C:                       ; 0820B47C
 .d32 0xF0FF01F0, 0xF001F001, 0xF001F001, 0xF001F001
 .d32 0x8001F001, 0x00000190
 Data0820B5C4:                       ; 0820B5C4
-.incbin "../data/Data0820B5C4.bin"
+.incbin "data/Data0820B5C4.bin"
 Data0820B93C:                       ; 0820B93C
 .d32 0x7FFF0000, 0x39DF0000, 0x5ADF4A5F, 0x269E6B5F
 .d32 0x479F371F, 0x00000000, 0x6AE25A61, 0x77417322
@@ -2991,11 +2991,11 @@ Data0820C16C:                       ; 0820C16C
 .d32 0xF0FF01F0, 0xF001F001, 0xF001F001, 0xF001F001
 .d32 0xC001F001, 0x019001F0
 Data0820C364:                       ; 0820C364
-.incbin "../data/Data0820C364.bin"
+.incbin "data/Data0820C364.bin"
 Data0820C56C:                       ; 0820C56C
-.incbin "../data/Data0820C56C.bin"
+.incbin "data/Data0820C56C.bin"
 Data0820C7DC:                       ; 0820C7DC
-.incbin "../data/Data0820C7DC.bin"
+.incbin "data/Data0820C7DC.bin"
 Data0820D8E4:                       ; 0820D8E4
 .d32 0x00080010, 0x01110018, 0x014001F0, 0xC0091108
 .d32 0x016015F0, 0x00FF1102, 0x037B00FF, 0x01F00520
@@ -3021,7 +3021,7 @@ Data0820D8E4:                       ; 0820D8E4
 .d32 0xF001F0FF, 0xF001F001, 0xF001F001, 0xF001F001
 .d32 0x01F0FC01, 0x01F001F0, 0x01F001F0, 0x000001E0
 Data0820DA54:                       ; 0820DA54
-.incbin "../data/Data0820DA54.bin"
+.incbin "data/Data0820DA54.bin"
 Data0820DCAC:                       ; 0820DCAC
 .d32 0x00000000, 0x55817FFF, 0x0C5D7665, 0x171F021F
 .d32 0x000016CA, 0x00000000, 0x00005B7F, 0x00000000
@@ -3063,23 +3063,23 @@ Data0820DEAC:                       ; 0820DEAC
 .d32 0x7FFF7F54, 0x0C570000, 0x00000159, 0x00000000
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
 Data0820DF0C:                       ; 0820DF0C
-.incbin "../data/Data0820DF0C.bin"
+.incbin "data/Data0820DF0C.bin"
 Data0820E19C:                       ; 0820E19C
-.incbin "../data/Data0820E19C.bin"
+.incbin "data/Data0820E19C.bin"
 Data0820E4F0:                       ; 0820E4F0
-.incbin "../data/Data0820E4F0.bin"
+.incbin "data/Data0820E4F0.bin"
 Data0820ED4C:                       ; 0820ED4C
-.incbin "../data/Data0820ED4C.bin"
+.incbin "data/Data0820ED4C.bin"
 Data0820F3B8:                       ; 0820F3B8
-.incbin "../data/Data0820F3B8.bin"
+.incbin "data/Data0820F3B8.bin"
 Data0820F5C0:                       ; 0820F5C0
-.incbin "../data/Data0820F5C0.bin"
+.incbin "data/Data0820F5C0.bin"
 Data0820FAF8:                       ; 0820FAF8
-.incbin "../data/Data0820FAF8.bin"
+.incbin "data/Data0820FAF8.bin"
 Data0820FF00:                       ; 0820FF00
-.incbin "../data/Data0820FF00.bin"
+.incbin "data/Data0820FF00.bin"
 Data08210540:                       ; 08210540
-.incbin "../data/Data08210540.bin"
+.incbin "data/Data08210540.bin"
 Data082120AC:                       ; 082120AC
 .d32 0x779A7FE0, 0x6F587379, 0x000062F4, 0x00000000
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -3128,7 +3128,7 @@ Data0821216C:                       ; 0821216C
 .d32 0x4B7B03E0, 0x7FC614A5, 0x26CF122A, 0x012F3B74
 .d32 0x090F05CF, 0x1A1B043B, 0x1A3B7FC6, 0x375B2ABB
 Data0821236C:                       ; 0821236C
-.incbin "../data/Data0821236C.bin"
+.incbin "data/Data0821236C.bin"
 Data08213C58:                       ; 08213C58
 .d32 0x00002559, 0x2D8D296B, 0x3DEF39CF, 0x5EB64E52
 .d32 0x673962F8, 0x779C6F7B, 0x7BDE77BD, 0x7BDE7BBC
@@ -3147,9 +3147,9 @@ Data08213C58:                       ; 08213C58
 .d32 0x5A075160, 0x735766AF, 0x7C1F3D21, 0x6DD27A35
 .d32 0x5EB67FFF, 0x06FA48A9, 0x096C0CC7, 0x035E0A34
 Data08213D58:                       ; 08213D58
-.incbin "../data/Data08213D58.bin"
+.incbin "data/Data08213D58.bin"
 Data08214100:                       ; 08214100
-.incbin "../data/Data08214100.bin"
+.incbin "data/Data08214100.bin"
 Data08214324:                       ; 08214324
 .d32 0x00080010, 0xD181D000, 0xD381D281, 0x89D20081
 .d32 0x81D285D0, 0xD20485D1, 0xD289D389, 0x89D21100
@@ -3181,9 +3181,9 @@ Data08214324:                       ; 08214324
 .d32 0x01F001F0, 0x01F001F0, 0xF001F0F8, 0xF001F001
 .d32 0x00019001
 Data082144E8:                       ; 082144E8
-.incbin "../data/Data082144E8.bin"
+.incbin "data/Data082144E8.bin"
 Data08214788:                       ; 08214788
-.incbin "../data/Data08214788.bin"
+.incbin "data/Data08214788.bin"
 Data08214A80:                       ; 08214A80
 .d32 0x00080010, 0xF040FF3D, 0xF001F001, 0x00012001
 .d32 0xF0F00100, 0xF001F015, 0xFE3FA001, 0x0D50C050
@@ -3294,9 +3294,9 @@ Data08214F10:                       ; 08214F10
 .d32 0x01F0FF01, 0x01F001F0, 0x01F001F0, 0x01F001F0
 .d32 0xF08001F0, 0x0040FC01
 Data082150E8:                       ; 082150E8
-.incbin "../data/Data082150E8.bin"
+.incbin "data/Data082150E8.bin"
 Data082153A4:                       ; 082153A4
-.incbin "../data/Data082153A4.bin"
+.incbin "data/Data082153A4.bin"
 Data08215690:                       ; 08215690
 .d32 0xC0404040, 0x00008418, 0xC0004040, 0x00008410
 .d32 0xC0400000, 0x00008408, 0xC0000000, 0x00008400
@@ -3988,23 +3988,23 @@ CodePtrs08216F10:                   ; 08216F10
 .d32 Sub080B009C+1, Sub080B014C+1, Sub080B020C+1, Sub080B028C+1
 .d32 Sub080B05EC+1
 Data08216FF4:                       ; 08216FF4
-.incbin "../data/Data08216FF4.bin"
+.incbin "data/Data08216FF4.bin"
 Data082176F8:                       ; 082176F8
-.incbin "../data/Data082176F8.bin"
+.incbin "data/Data082176F8.bin"
 Data082190EC:                       ; 082190EC
-.incbin "../data/Data082190EC.bin"
+.incbin "data/Data082190EC.bin"
 Data0821B034:                       ; 0821B034
-.incbin "../data/Data0821B034.bin"
+.incbin "data/Data0821B034.bin"
 Data0821D23C:                       ; 0821D23C
-.incbin "../data/Data0821D23C.bin"
+.incbin "data/Data0821D23C.bin"
 Data0821F2C0:                       ; 0821F2C0
-.incbin "../data/Data0821F2C0.bin"
+.incbin "data/Data0821F2C0.bin"
 Data08220D20:                       ; 08220D20
-.incbin "../data/Data08220D20.bin"
+.incbin "data/Data08220D20.bin"
 Data08222E60:                       ; 08222E60
-.incbin "../data/Data08222E60.bin"
+.incbin "data/Data08222E60.bin"
 Data08224E54:                       ; 08224E54
-.incbin "../data/Data08224E54.bin"
+.incbin "data/Data08224E54.bin"
 Data0822721C:                       ; 0822721C
 .d32 0x00020010, 0xFFFEFF00, 0xEFFFFFFF, 0x10DF40FF
 .d32 0xF222FF06, 0x07EE2FFF, 0xEE2EFD2E, 0x2007102E
@@ -4023,9 +4023,9 @@ Data0822721C:                       ; 0822721C
 .d32 0x556524D2, 0x3C008F42, 0xF0000012, 0xF001F001
 .d32 0xE001F001, 0x01F001F0, 0x000001F0
 Data08227318:                       ; 08227318
-.incbin "../data/Data08227318.bin"
+.incbin "data/Data08227318.bin"
 Data082282E4:                       ; 082282E4
-.incbin "../data/Data082282E4.bin"
+.incbin "data/Data082282E4.bin"
 Data0822AE58:                       ; 0822AE58
 .d32 0x40550098, 0x00001248, 0x80354098, 0x00001244
 .d32 0x80154098, 0x00001240, 0x80354084, 0x000012D8
@@ -4086,7 +4086,7 @@ Data0822B010:                       ; 0822B010
 .d32 0xF001F001, 0xF001F001, 0x01F0F001, 0x01F001F0
 .d32 0x000001F0
 Data0822B124:                       ; 0822B124
-.incbin "../data/Data0822B124.bin"
+.incbin "data/Data0822B124.bin"
 Data0822B37C:                       ; 0822B37C
 .d32 0x00080010, 0xF050FF00, 0xF152F152, 0x03F0C356
 .d32 0x52F20330, 0x01F050FF, 0x00410140, 0xF3500100
@@ -4552,7 +4552,7 @@ Data0822CD60:                       ; 0822CD60
 .d32 0xF001F0FF, 0xF001F001, 0xF001F001, 0xF001F001
 .d32 0x01F0F801, 0x01F001F0, 0x018001F0
 Data0822CEFC:                       ; 0822CEFC
-.incbin "../data/Data0822CEFC.bin"
+.incbin "data/Data0822CEFC.bin"
 Data0822D114:                       ; 0822D114
 .d32 0x00080010, 0xF050FF3D, 0xF001F001, 0x00012001
 .d32 0xF0FF0100, 0xF001F015, 0xF03FF001, 0xF001F001
@@ -4606,7 +4606,7 @@ Data0822D280:                       ; 0822D280
 .d32 0xF001F001, 0xFE01F001, 0x01F001F0, 0x01F001F0
 .d32 0x01F001F0, 0x000001A0
 Data0822D428:                       ; 0822D428
-.incbin "../data/Data0822D428.bin"
+.incbin "data/Data0822D428.bin"
 Data0822D658:                       ; 0822D658
 .d32 0x00080010, 0x42724100, 0xFF724372, 0x01F0E050
 .d32 0x01E001F0, 0x5100FF00, 0x72521F72, 0xF03FF053
@@ -4676,7 +4676,7 @@ Data0822D8F0:                       ; 0822D8F0
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0xC001F001
 .d32 0x01D001F0
 Data0822DA44:                       ; 0822DA44
-.incbin "../data/Data0822DA44.bin"
+.incbin "data/Data0822DA44.bin"
 Data0822DC70:                       ; 0822DC70
 .d32 0x7FFF45BC, 0x000B0C63, 0x0011000E, 0x18C60015
 .d32 0x298A2128, 0x000431EC, 0x35B10C67, 0x7F9A7F74
@@ -4912,9 +4912,9 @@ Data0822E890:                       ; 0822E890
 .d32 0x7FFF0000, 0x01550000, 0x1B3E1A1C, 0x2E5E299D
 .d32 0x4F5F42FF, 0x3DF1252B, 0x1ADF5AD8, 0x01760E1A
 Data0822EA90:                       ; 0822EA90
-.incbin "../data/Data0822EA90.bin"
+.incbin "data/Data0822EA90.bin"
 Data0822ECB0:                       ; 0822ECB0
-.incbin "../data/Data0822ECB0.bin"
+.incbin "data/Data0822ECB0.bin"
 Data0822F5D0:                       ; 0822F5D0
 .d32 0x0DB50000, 0x6FFF7BFF, 0x000063FF, 0x00000000
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
@@ -5490,17 +5490,17 @@ DataPtrs08230D70:                   ; 08230D70
 .d32 Data08230C40, Data08230C80, Data08230C98, Data08230CA8
 .d32 Data08230CC8, Data08230CF8, Data08230D48
 Data08230DDC:                       ; 08230DDC
-.incbin "../data/Data08230DDC.bin"
+.incbin "data/Data08230DDC.bin"
 Data08231070:                       ; 08231070
-.incbin "../data/Data08231070.bin"
+.incbin "data/Data08231070.bin"
 Data0823141C:                       ; 0823141C
-.incbin "../data/Data0823141C.bin"
+.incbin "data/Data0823141C.bin"
 Data0823172C:                       ; 0823172C
-.incbin "../data/Data0823172C.bin"
+.incbin "data/Data0823172C.bin"
 Data08231AF0:                       ; 08231AF0
-.incbin "../data/Data08231AF0.bin"
+.incbin "data/Data08231AF0.bin"
 Data08231E8C:                       ; 08231E8C
-.incbin "../data/Data08231E8C.bin"
+.incbin "data/Data08231E8C.bin"
 Data082321D0:                       ; 082321D0
 .d32 0xE1C840F8, 0x00004390, 0xC1C840D8, 0x00004390
 .d32 0xD1F840D8, 0x00004390, 0xF1F840F8, 0x00004390
@@ -5909,9 +5909,9 @@ Data0823324A:                       ; 0823324A
 Data08233250:                       ; 08233250
 .d32 0x00008152
 Data08233254:                       ; 08233254
-.incbin "../data/Data08233254.bin"
+.incbin "data/Data08233254.bin"
 Data08233724:                       ; 08233724
-.incbin "../data/Data08233724.bin"
+.incbin "data/Data08233724.bin"
 Data08233B48:                       ; 08233B48
 .d32 0x00002B2F, 0x25647FFF, 0x4A8D35E8, 0x6FB66353
 .d32 0x36B20000, 0x4FFF3FFB, 0x2B2F739C, 0x3FFB37B8
@@ -5920,9 +5920,9 @@ Data08233B48:                       ; 08233B48
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
 Data08233BA8:                       ; 08233BA8
-.incbin "../data/Data08233BA8.bin"
+.incbin "data/Data08233BA8.bin"
 Data08233F88:                       ; 08233F88
-.incbin "../data/Data08233F88.bin"
+.incbin "data/Data08233F88.bin"
 Data082344DC:                       ; 082344DC
 .d32 0x01DA0020, 0x0000439E, 0x00000000, 0xFFFF0000
 Data082344EC:                       ; 082344EC
@@ -6530,15 +6530,15 @@ CodePtrs08235AE8:                   ; 08235AE8
 .d32 Sub080BF578+1, Sub080BF680+1, Sub080BF724+1, Sub080BF7C8+1
 .d32 Sub080BD768+1, Sub080BF30C+1, Sub080BF39C+1, Sub080BF3FC+1
 Data08235C08:                       ; 08235C08
-.incbin "../data/Data08235C08.bin"
+.incbin "data/Data08235C08.bin"
 Data08237C08:                       ; 08237C08
-.incbin "../data/Data08237C08.bin"
+.incbin "data/Data08237C08.bin"
 Data082384EC:                       ; 082384EC
-.incbin "../data/Data082384EC.bin"
+.incbin "data/Data082384EC.bin"
 Data08239B70:                       ; 08239B70
-.incbin "../data/Data08239B70.bin"
+.incbin "data/Data08239B70.bin"
 Data0823ABFC:                       ; 0823ABFC
-.incbin "../data/Data0823ABFC.bin"
+.incbin "data/Data0823ABFC.bin"
 Data0823BF10:                       ; 0823BF10
 .d32 0x7FFF12CD, 0x253014A5, 0x1E5A0DD4, 0x02580192
 .d32 0x36BF033F, 0x5AD64210, 0x7FF96F7B, 0x6AE97FD0
@@ -6573,9 +6573,9 @@ Data0823BF10:                       ; 0823BF10
 .d32 0x7FFF03FF, 0x001F0000, 0x001F001F, 0x001F001F
 .d32 0x001F001F, 0x001F001F, 0x001F001F, 0x5EF74631
 Data0823C110:                       ; 0823C110
-.incbin "../data/Data0823C110.bin"
+.incbin "data/Data0823C110.bin"
 Data0823C338:                       ; 0823C338
-.incbin "../data/Data0823C338.bin"
+.incbin "data/Data0823C338.bin"
 Data0823C560:                       ; 0823C560
 .d32 0x019800C8, 0x0000D05D, 0x00000000, 0xFFFF0000
 Data0823C570:                       ; 0823C570
@@ -6863,9 +6863,9 @@ Data0823D168:                       ; 0823D168
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0xF801F001
 .d32 0x01F001F0, 0x01F001F0, 0x000001E0
 Data0823D304:                       ; 0823D304
-.incbin "../data/Data0823D304.bin"
+.incbin "data/Data0823D304.bin"
 Data0823D560:                       ; 0823D560
-.incbin "../data/Data0823D560.bin"
+.incbin "data/Data0823D560.bin"
 Data0823D784:                       ; 0823D784
 .d32 0x00080010, 0x1003FF20, 0x2AC14B01, 0xF0E12BC1
 .d32 0x0001F001, 0x2DC12C01, 0x833530C1, 0xC1590170
@@ -6887,9 +6887,9 @@ Data0823D784:                       ; 0823D784
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0xFC01F001
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0
 Data0823D8B0:                       ; 0823D8B0
-.incbin "../data/Data0823D8B0.bin"
+.incbin "data/Data0823D8B0.bin"
 Data0823DAEC:                       ; 0823DAEC
-.incbin "../data/Data0823DAEC.bin"
+.incbin "data/Data0823DAEC.bin"
 Data0823DF48:                       ; 0823DF48
 .d32 0x00080010, 0xF003FF3F, 0xF001F001, 0xF001F001
 .d32 0xFC01F001, 0x01F001F0, 0x01F001F0, 0x013001F0
@@ -6911,9 +6911,9 @@ Data0823DF48:                       ; 0823DF48
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0xF001F0FF
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0x01F08001
 Data0823E078:                       ; 0823E078
-.incbin "../data/Data0823E078.bin"
+.incbin "data/Data0823E078.bin"
 Data0823E400:                       ; 0823E400
-.incbin "../data/Data0823E400.bin"
+.incbin "data/Data0823E400.bin"
 Data0823EBF0:                       ; 0823EBF0
 .d32 0x00208000, 0x0000EBC4, 0x80004000, 0x0000EBC0
 .d32 0x00000000, 0xFFFF0000
@@ -7108,7 +7108,7 @@ Data0823F374:                       ; 0823F374
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0x01F001F0
 .d32 0x1001F0C0, 0x00000001
 Data0823F48C:                       ; 0823F48C
-.incbin "../data/Data0823F48C.bin"
+.incbin "data/Data0823F48C.bin"
 Data082416C4:                       ; 082416C4
 .d32 0x004840CC, 0x00004018, 0x402840CC, 0x00004014
 .d32 0x400840CC, 0x00004010, 0x41E840CC, 0x0000400C
@@ -7434,9 +7434,9 @@ Data08242780:                       ; 08242780
 .d32 0x01F001F0, 0x01F001F0, 0xF0FC01F0, 0xF001F001
 .d32 0xF001F001, 0x0001B001
 Data082428B8:                       ; 082428B8
-.incbin "../data/Data082428B8.bin"
+.incbin "data/Data082428B8.bin"
 Data08243254:                       ; 08243254
-.incbin "../data/Data08243254.bin"
+.incbin "data/Data08243254.bin"
 Data08243CEC:                       ; 08243CEC
 .d32 0x00040010, 0xC0000020, 0x00EEEE01, 0xAC029E00
 .d32 0xBCAE00EE, 0xAA030099, 0x501FE0E3, 0x99030026
@@ -7457,9 +7457,9 @@ Data08243CEC:                       ; 08243CEC
 .d32 0x01F001F0, 0x01F001F0, 0xF001F0FF, 0xF001F001
 .d32 0xF001F001, 0xF001F001, 0x01F0E001, 0x016001F0
 Data08243E0C:                       ; 08243E0C
-.incbin "../data/Data08243E0C.bin"
+.incbin "data/Data08243E0C.bin"
 Data08245700:                       ; 08245700
-.incbin "../data/Data08245700.bin"
+.incbin "data/Data08245700.bin"
 Data08245974:                       ; 08245974
 .d32 0x00080010, 0xF020003C, 0xF001F001, 0x10011001
 .d32 0x00103F00, 0x01F015F0, 0x3FF001F0, 0x01F001F0
@@ -7478,9 +7478,9 @@ Data08245974:                       ; 08245974
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0xF001F0FF
 .d32 0xF001F001, 0xF001F001, 0xF001F001, 0x01908001
 Data08245A74:                       ; 08245A74
-.incbin "../data/Data08245A74.bin"
+.incbin "data/Data08245A74.bin"
 Data08245D14:                       ; 08245D14
-.incbin "../data/Data08245D14.bin"
+.incbin "data/Data08245D14.bin"
 Data08245F50:                       ; 08245F50
 .d32 0x00000000, 0x55817FFF, 0x0C5D7665, 0x171F021F
 .d32 0x7F7A16CA, 0x7EF47F37, 0x7FDC5B7F, 0x7F377F7A
@@ -7512,11 +7512,11 @@ Data08246050:                       ; 08246050
 .d32 0x0000087F, 0x7FF10000, 0x7FFF7FFA, 0x7FD57F8E
 .d32 0x00007FFC, 0x00000000, 0x00000000, 0x00000000
 Data08246110:                       ; 08246110
-.incbin "../data/Data08246110.bin"
+.incbin "data/Data08246110.bin"
 Data082475EC:                       ; 082475EC
-.incbin "../data/Data082475EC.bin"
+.incbin "data/Data082475EC.bin"
 Data08248A24:                       ; 08248A24
-.incbin "../data/Data08248A24.bin"
+.incbin "data/Data08248A24.bin"
 Data08248FB8:                       ; 08248FB8
 .d32 0x7FDD0000, 0x5EF76F7B, 0x7FFF39CE, 0x51EF77BD
 .d32 0x7BD56B51, 0x4E737FF9, 0x00000000, 0x00000000
@@ -7538,9 +7538,9 @@ Data08249058:                       ; 08249058
 .d32 0x0CA77E9F, 0x150E10CA, 0x1D741951, 0x25F921B7
 .d32 0x2A3C261B, 0x00002A3E, 0x00000000, 0x00000000
 Data082490D8:                       ; 082490D8
-.incbin "../data/Data082490D8.bin"
+.incbin "data/Data082490D8.bin"
 Data0824A0D8:                       ; 0824A0D8
-.incbin "../data/Data0824A0D8.bin"
+.incbin "data/Data0824A0D8.bin"
 Data0824B0D8:                       ; 0824B0D8
 .d32 0x00110010, 0x00130012
 Data0824B0E0:                       ; 0824B0E0
@@ -7570,7 +7570,7 @@ CodePtrs0824B188:                   ; 0824B188
 .d32 Sub080C5B70+1, Sub080C5C04+1, Sub080C5C5C+1, Sub080C5D10+1
 .d32 Sub080C5DD0+1, Sub080C5E44+1
 Data0824B1B0:                       ; 0824B1B0
-.incbin "../data/Data0824B1B0.bin"
+.incbin "data/Data0824B1B0.bin"
 Data0824B3E8:                       ; 0824B3E8
 .d32 0x00080010, 0x22222200, 0x44444222, 0x55421044
 .d32 0x31030041, 0x9E114233, 0x33340300, 0x1F100360
@@ -7602,7 +7602,7 @@ Data0824B3E8:                       ; 0824B3E8
 .d32 0x01F001F0, 0x01F001F0, 0x01F001F0, 0xF0FE01F0
 .d32 0xF001F001, 0xF001F001, 0x3001F001, 0x00000001
 Data0824B5B8:                       ; 0824B5B8
-.incbin "../data/Data0824B5B8.bin"
+.incbin "data/Data0824B5B8.bin"
 Data0824B828:                       ; 0824B828
 .d32 0x00080010, 0x22222200, 0x44444222, 0x03709E44
 .d32 0x03903333, 0x16001F10, 0x6B330160, 0x0001B033
@@ -7665,13 +7665,13 @@ Data0824BB1C:                       ; 0824BB1C
 .d32 0x7FFF7F54, 0x3DB50000, 0x66FF525A, 0x00117FBF
 .d32 0x001F0017, 0x51BF00B0, 0x7F5F667F, 0x67FF4F5F
 Data0824BB5C:                       ; 0824BB5C
-.incbin "../data/Data0824BB5C.bin"
+.incbin "data/Data0824BB5C.bin"
 Data0824BF4C:                       ; 0824BF4C
-.incbin "../data/Data0824BF4C.bin"
+.incbin "data/Data0824BF4C.bin"
 Data0824C37C:                       ; 0824C37C
-.incbin "../data/Data0824C37C.bin"
+.incbin "data/Data0824C37C.bin"
 Data0824C7BC:                       ; 0824C7BC
-.incbin "../data/Data0824C7BC.bin"
+.incbin "data/Data0824C7BC.bin"
 Data0824CCC0:                       ; 0824CCC0
 .d32 0x45414D41
 Data0824CCC4:                       ; 0824CCC4
@@ -8880,11 +8880,11 @@ Data0824F780:                       ; 0824F780
 .d16 0x40D5, 0x100A, 0x100B, 0x100C, 0x100D, 0x100E, 0x100F, 0x1090
 .d16 0x1091, 0x1092, 0x1093, 0x1094, 0x1095, 0x1096, 0x1097
 Data0824F90E:                       ; 0824F90E
-.incbin "../data/Data0824F90E.bin"
+.incbin "data/Data0824F90E.bin"
 Data0824FB26:                       ; 0824FB26
-.incbin "../data/Data0824FB26.bin"
+.incbin "data/Data0824FB26.bin"
 Data0824FD3E:                       ; 0824FD3E
-.incbin "../data/Data0824FD3E.bin"
+.incbin "data/Data0824FD3E.bin"
 DataPtrs0824FF58:                   ; 0824FF58
 .d32 Data0824F90E, Data0824F90E, Data0824F90E, Data0824F90E
 .d32 Data0824F90E, Data0824F90E, Data0824FB26, Data0824F90E
@@ -8967,11 +8967,11 @@ DataPtrs08250208:                   ; 08250208
 .d32 DataPtrs08250168, DataPtrs0825017C, DataPtrs08250190, DataPtrs082501A4
 .d32 DataPtrs082501B8, DataPtrs082501CC, DataPtrs082501E0, DataPtrs082501F4
 Data08250238:                       ; 08250238
-.incbin "../data/Data08250238.bin"
+.incbin "data/Data08250238.bin"
 Data08250450:                       ; 08250450
-.incbin "../data/Data08250450.bin"
+.incbin "data/Data08250450.bin"
 Data08250668:                       ; 08250668
-.incbin "../data/Data08250668.bin"
+.incbin "data/Data08250668.bin"
 DataPtrs08250880:                   ; 08250880
 .d32 Data08250238, Data08250238, Data08250238, Data08250238
 .d32 Data08250238, Data08250238, Data08250238, Data08250238
@@ -9229,15 +9229,15 @@ Data082512C0:                       ; 082512C0
 .d32 0x7FFF0E31, 0x03FF0000, 0x031F001F, 0x381A5018
 .d32 0x03146F9F, 0x7FFF5012, 0x6DC76943, 0x7F33768D
 Data082514C0:                       ; 082514C0
-.incbin "../data/Data082514C0.bin"
+.incbin "data/Data082514C0.bin"
 Data082519FC:                       ; 082519FC
-.incbin "../data/Data082519FC.bin"
+.incbin "data/Data082519FC.bin"
 Data08251FA0:                       ; 08251FA0
-.incbin "../data/Data08251FA0.bin"
+.incbin "data/Data08251FA0.bin"
 Data08252500:                       ; 08252500
-.incbin "../data/Data08252500.bin"
+.incbin "data/Data08252500.bin"
 Data082529CC:                       ; 082529CC
-.incbin "../data/Data082529CC.bin"
+.incbin "data/Data082529CC.bin"
 Data082545CC:                       ; 082545CC
 .d32 0x7FFF6693, 0x00F20000, 0x33FF2A9F, 0x5BBF4EFF
 .d32 0x152F0000, 0x61C740C4, 0x423F7E8A, 0x2117211E
@@ -9481,11 +9481,11 @@ Data08254D94:                       ; 08254D94
 .d32 0x6F7B03FF, 0x5AD60000, 0x5AD65AD6, 0x00002D6B
 .d32 0x00000000, 0x00000000, 0x00000000, 0x00000000
 Data08254F94:                       ; 08254F94
-.incbin "../data/Tilemaps/MarioBrosTitle_L2_LZ77.bin"
+.incbin "data/Tilemaps/MarioBrosTitle_L2_LZ77.bin"
 Data082552A4:                       ; 082552A4
-.incbin "../data/Tilemaps/MarioBrosTitle_L1_LZ77.bin"
+.incbin "data/Tilemaps/MarioBrosTitle_L1_LZ77.bin"
 Data082553DC:                       ; 082553DC
-.incbin "../data/Tilemaps/MarioBrosTitle_L0_LZ77.bin"
+.incbin "data/Tilemaps/MarioBrosTitle_L0_LZ77.bin"
 Data08255504:                       ; 08255504
 .d32 0x7FFF6693, 0x00F20000, 0x33FF2A9F, 0x5BBF4EFF
 .d32 0x152F0000, 0x61C740C4, 0x423F7E8A, 0x2117211E
@@ -9520,21 +9520,21 @@ Data08255504:                       ; 08255504
 .d32 0x7FFF001F, 0x25291084, 0x52944210, 0x00000000
 .d32 0x00000000, 0x7F980000, 0x7E8A7F52, 0x61A57206
 Data08255704:                       ; 08255704
-.incbin "../data/Tilemaps/MarioBros_BonusResults1P_Huffman.bin"
+.incbin "data/Tilemaps/MarioBros_BonusResults1P_Huffman.bin"
 Data082558C0:                       ; 082558C0
-.incbin "../data/Tilemaps/MarioBros_BonusResults2P_Huffman.bin"
+.incbin "data/Tilemaps/MarioBros_BonusResults2P_Huffman.bin"
 Data08255AA8:                       ; 08255AA8
-.incbin "../data/Tilemaps/MarioBros_BonusResults3P_Huffman.bin"
+.incbin "data/Tilemaps/MarioBros_BonusResults3P_Huffman.bin"
 Data08255CBC:                       ; 08255CBC
-.incbin "../data/Tilemaps/MarioBros_BonusResults4P_Huffman.bin"
+.incbin "data/Tilemaps/MarioBros_BonusResults4P_Huffman.bin"
 Data08255EF8:                       ; 08255EF8
-.incbin "../data/Graphics/MarioBros_layer_Huffman.bin"
+.incbin "data/Graphics/MarioBros_layer_Huffman.bin"
 Data0825A0B8:                       ; 0825A0B8
-.incbin "../data/Graphics/MarioBros_sprite_Huffman.bin"
+.incbin "data/Graphics/MarioBros_sprite_Huffman.bin"
 Data0825F514:                       ; 0825F514
-.incbin "../data/Graphics/MarioBrosTitle_layer_LZ77.bin"
+.incbin "data/Graphics/MarioBrosTitle_layer_LZ77.bin"
 Data08260B3C:                       ; 08260B3C
-.incbin "../data/Graphics/Data08260B3C_Huffman.bin"
+.incbin "data/Graphics/Data08260B3C_Huffman.bin"
 Data08263AEC:                       ; 08263AEC
 .d32 0x00005841
 Data08263AF0:                       ; 08263AF0

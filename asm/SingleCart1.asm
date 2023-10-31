@@ -3,7 +3,7 @@
 SingleCart_080E9978:
 ; Japanese version's internal header
 b      Code080E9A38                 ; 080E9978
-.incbin "../data/InternalHeader_NintendoLogo.bin"
+.incbin "data/InternalHeader_NintendoLogo.bin"
 .d8 "SUPER MARIODAX4J"              ; 080E9A18
 .d8 "01"                            ; 080E9A28
 .d8 0x96,0x00,0x00,0x00,0x00,0x00
@@ -6734,8 +6734,8 @@ mov   pc,lr                         ; 080ED4A0
 
 ; 080ED4A4-080FC11C: first pseudo-ROM data sector
 
-.incbin "../data/SingleCart1_Data.bin"
+.incbin "data/SingleCart1_Data.bin"
 SingleCart_080F261C:                ; 080F261C
-.incbin "../data/Graphics/SingleCart_080F261C.bin"
+.incbin "data/Graphics/SingleCart_080F261C.bin"
 SingleCart_080F4E1C:                ; 080F4E1C
-.incbin "../data/Graphics/SingleCart_080F4E1C.bin"
+.incbin "data/Graphics/SingleCart_080F4E1C.bin"

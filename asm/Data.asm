@@ -1,5 +1,5 @@
 Data0811DBF0:                       ; 0811DBF0
-.incbin "../data/Data0811DBF0.bin"
+.incbin "data/Data0811DBF0.bin"
 CodePtrs08120F70:                   ; 08120F70
 .d32 Return08002874+1, Sub080027BC+1, Sub080C65F4+1, Sub080C65F4+1
 .d32 Return08002840+1, Sub08002844+1, Return08002874+1, Return08002874+1
@@ -731,21 +731,21 @@ Data08122B70:                       ; 08122B70
 .d16 0x0042, 0x0042, 0x0042, 0x0042, 0x0042, 0x0042, 0x0042, 0x0042
 .d16 0x00FF
 Data08122CF2:                       ; 08122CF2
-.incbin "../data/Tilemaps/Data08122CF2.bin"
+.incbin "data/Tilemaps/Data08122CF2.bin"
 Data08122FF4:                       ; 08122FF4
-.incbin "../data/Tilemaps/Data08122FF4.bin"
+.incbin "data/Tilemaps/Data08122FF4.bin"
 Data08123476:                       ; 08123476
-.incbin "../data/Tilemaps/Data08123476.bin"
+.incbin "data/Tilemaps/Data08123476.bin"
 Data08123778:                       ; 08123778
-.incbin "../data/Tilemaps/Data08123778.bin"
+.incbin "data/Tilemaps/Data08123778.bin"
 Data08123A7A:                       ; 08123A7A
-.incbin "../data/Tilemaps/Data08123A7A.bin"
+.incbin "data/Tilemaps/Data08123A7A.bin"
 Data08123EFC:                       ; 08123EFC
-.incbin "../data/Tilemaps/Data08123EFC.bin"
+.incbin "data/Tilemaps/Data08123EFC.bin"
 Data081241FE:                       ; 081241FE
-.incbin "../data/Tilemaps/Data081241FE.bin"
+.incbin "data/Tilemaps/Data081241FE.bin"
 Data08124800:                       ; 08124800
-.incbin "../data/Tilemaps/Data08124800.bin"
+.incbin "data/Tilemaps/Data08124800.bin"
 DataPtrs08124B04:                   ; 08124B04
 .d32 Data08122B70, Data08122CF2, Data08122FF4, Data08123476
 .d32 Data08123778, Data08123A7A, Data08123EFC, Data081241FE
@@ -1612,7 +1612,7 @@ Data08126946:                       ; 08126946
 .d16 0x0300
 BitTable8Desc_08126948:             ; 08126948
 .d8 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01
-Data08126950:                       ; 08126950
+Obj10F_16_12B_TileLow:                       ; 08126950
 .d8 0x67, 0x63, 0x6B, 0x79, 0xBC, 0x2E, 0x72, 0x40
 .d8 0x32
 Data08126959:                       ; 08126959
@@ -2512,7 +2512,7 @@ ObjType1Ptrs_Tileset5_B_D:          ; 08127F1C
 .d32 Obj123_2A+1, Obj123_2A+1, Obj123_2A+1, Obj123_2A+1
 .d32 Obj123_2A+1, Obj123_2A+1, Obj123_2A+1, Obj12B+1
 .d32 Obj12C+1, Obj12DT5+1, Obj12ET5+1, Obj12FT5+1
-.d32 Obj130T5+1, Obj149T3_12DT6_131T5+1, Obj12ET6_132T5_13AT9+1, Obj133T5_130T2+1
+.d32 Obj130T5+1, Obj149T3_12DT6_131T5+1, Obj12ET6_132T5_13AT9+1, ObjLava+1
 .d32 Obj134T5+1
 ObjType0Ptrs_Tileset5_B_D:          ; 08127FF0
 .d32 Obj000_01T5+1, Obj000_01T5+1, Obj002T5+1, Obj003T5+1
@@ -2685,7 +2685,7 @@ ObjType1Ptrs_Tileset2:              ; 08128494
 .d32 Obj123_2A+1, Obj123_2A+1, Obj123_2A+1, Obj123_2A+1
 .d32 Obj123_2A+1, Obj123_2A+1, Obj123_2A+1, Obj12B+1
 .d32 Obj12C+1, Obj12DT2+1, Obj12E_2FT2+1, Obj12E_2FT2+1
-.d32 Obj133T5_130T2+1, Obj131_32T2T4+1, Obj131_32T2T4+1, Obj107T4_133T2+1
+.d32 ObjLava+1, Obj131_32T2T4+1, Obj131_32T2T4+1, Obj107T4_133T2+1
 .d32 Obj108T4_134T2+1, Obj109T4_135T2+1, Obj10AT4_136T2+1, Obj10CT4_137T2+1
 .d32 Obj10DT4_138T2+1, Obj139T2+1, ObjDonutLift+1, Obj13BT2+1
 ObjType0Ptrs_Tileset2:              ; 08128584
@@ -3669,17 +3669,17 @@ Data0812A046:                       ; 0812A046
 Data0812A24A:                       ; 0812A24A
 .d16 0x0025, 0x4070, 0x718E
 Data0812A250:                       ; 0812A250
-.incbin "../data/Data0812A250.bin"
+.incbin "data/Data0812A250.bin"
 Data0812A450:                       ; 0812A450
-.incbin "../data/Data0812A450.bin"
+.incbin "data/Data0812A450.bin"
 Data0812A650:                       ; 0812A650
-.incbin "../data/Data0812A650.bin"
+.incbin "data/Data0812A650.bin"
 Data0812A6D0:                       ; 0812A6D0
-.incbin "../data/Data0812A6D0.bin"
+.incbin "data/Data0812A6D0.bin"
 Data0812A8D0:                       ; 0812A8D0
-.incbin "../data/Data0812A8D0.bin"
+.incbin "data/Data0812A8D0.bin"
 Data0812ABD0:                       ; 0812ABD0
-.incbin "../data/Data0812ABD0.bin"
+.incbin "data/Data0812ABD0.bin"
 Data0812ADD0:                       ; 0812ADD0
 .d32 0x7FFF0000, 0x01CF0000, 0x4BDF0739, 0x00006FFF
 .d32 0x294A7FFF, 0x3BFF1EB6, 0x77FF5FFF
@@ -6618,13 +6618,13 @@ CodePtrs08131FBC:                   ; 08131FBC
 .d32 Sub08034FC8+1, Sub08035070+1, Sub080350F0+1, Sub080352C4+1
 .d32 Sub080351FC+1
 Data08131FE0:                       ; 08131FE0
-.incbin "../data/Data08131FE0_LZ77.bin"
+.incbin "data/Data08131FE0_LZ77.bin"
 Data08134104:                       ; 08134104
-.incbin "../data/Data08134104_LZ77.bin"
+.incbin "data/Data08134104_LZ77.bin"
 Data08135818:                       ; 08135818
-.incbin "../data/Data08135818_LZ77.bin"
+.incbin "data/Data08135818_LZ77.bin"
 Data08135CE4:                       ; 08135CE4
-.incbin "../data/Data08135CE4_LZ77.bin"
+.incbin "data/Data08135CE4_LZ77.bin"
 Data08136190:                       ; 08136190
 .d32 0x00000000, 0x55817FFF, 0x0C5D7665, 0x171F021F
 .d32 0x000016CA, 0x00000000, 0x00005B7F, 0x00000000
@@ -6659,11 +6659,11 @@ Data08136190:                       ; 08136190
 .d32 0x7FFF7F54, 0x015514A5, 0x1B3E1A1C, 0x2E5E299D
 .d32 0x150F42FF, 0x55C74125, 0x1C9F6A69, 0x00140C19
 Data08136390:                       ; 08136390
-.incbin "../data/Data08136390_LZ77.bin"
+.incbin "data/Data08136390_LZ77.bin"
 Data08136834:                       ; 08136834
-.incbin "../data/Data08136834_LZ77.bin"
+.incbin "data/Data08136834_LZ77.bin"
 Data08136CE0:                       ; 08136CE0
-.incbin "../data/Data08136CE0_LZ77.bin"
+.incbin "data/Data08136CE0_LZ77.bin"
 Data0813719C:                       ; 0813719C
 .d8 0x3D, 0xFF, 0x4C, 0xFF, 0x21, 0xFF, 0xFF
 Data081371A3:                       ; 081371A3
@@ -7298,45 +7298,45 @@ Data0813850C:                       ; 0813850C
 Data0813850E:                       ; 0813850E
 .d16 0x0014
 L1_8x8Tilemaps_0:                   ; 08138510
-.incbin "../data/Tilemaps/L1_8x8_0.bin"
+.incbin "data/Tilemaps/L1_8x8_0.bin"
 Data08138EF8:                       ; 08138EF8
 .d32 0xE9BF6703, 0xE9BF6703
 L1_8x8Tilemaps_F_10_11:             ; 08138F00
-.incbin "../data/Tilemaps/L1_8x8_F_10_11.bin"
+.incbin "data/Tilemaps/L1_8x8_F_10_11.bin"
 L1_8x8Tilemaps_5_B_D:               ; 08139700
-.incbin "../data/Tilemaps/L1_8x8_5_B_D.bin"
+.incbin "data/Tilemaps/L1_8x8_5_B_D.bin"
 Data0813A030:                       ; 0813A030
 .d32 0xE296471F, 0xEE96472E
 L1_8x8Tilemaps_1:                   ; 0813A038
-.incbin "../data/Tilemaps/L1_8x8_1.bin"
+.incbin "data/Tilemaps/L1_8x8_1.bin"
 Data0813ADF8:                       ; 0813ADF8
 .d32 0xE2A05025, 0xF0AD532D
 L1_8x8Tilemaps_3_E:                 ; 0813AE00
-.incbin "../data/Tilemaps/L1_8x8_3_E.bin"
+.incbin "data/Tilemaps/L1_8x8_3_E.bin"
 Data0813B730:                       ; 0813B730
 .d32 0xE2995F25, 0xF0A65F2E
 L1_8x8Tilemaps_2:                   ; 0813B738
-.incbin "../data/Tilemaps/L1_8x8_2.bin"
+.incbin "data/Tilemaps/L1_8x8_2.bin"
 Data0813C068:                       ; 0813C068
 .d32 0xE29B5A11, 0xE29B5A12
 L1_8x8Tilemaps_4_C:                 ; 0813C070
-.incbin "../data/Tilemaps/L1_8x8_4_C.bin"
+.incbin "data/Tilemaps/L1_8x8_4_C.bin"
 Data0813C9A0:                       ; 0813C9A0
 .d32 0xF08A4A1F, 0xF08D4A2E
 L1_8x8Tilemaps_12:                  ; 0813C9A8
-.incbin "../data/Tilemaps/L1_8x8_12.bin"
+.incbin "data/Tilemaps/L1_8x8_12.bin"
 Data0813D1A8:                       ; 0813D1A8
 .d32 0xC1AD5032, 0xC1AD5032
 L1_8x8Tilemaps_6_7_8:               ; 0813D1B0
-.incbin "../data/Tilemaps/L1_8x8_6_7_8.bin"
+.incbin "data/Tilemaps/L1_8x8_6_7_8.bin"
 Data0813DAE0:                       ; 0813DAE0
 .d32 0xE2914C0A, 0xE2914C0B
 L1_8x8Tilemaps_9:                   ; 0813DAE8
-.incbin "../data/Tilemaps/L1_8x8_9.bin"
+.incbin "data/Tilemaps/L1_8x8_9.bin"
 Data0813E418:                       ; 0813E418
 .d32 0xE298552C, 0xE2AD552E
 L1_8x8Tilemaps_A:                   ; 0813E420
-.incbin "../data/Tilemaps/L1_8x8_A.bin"
+.incbin "data/Tilemaps/L1_8x8_A.bin"
 Data0813ED50:                       ; 0813ED50
 .d32 0xE29C5C24, 0xE2A65F24
 Sublevel000_Main:                   ; 0813ED58

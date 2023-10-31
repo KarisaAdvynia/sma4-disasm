@@ -46,7 +46,7 @@ def bytecompare(source, dest, searchregions=None):
 if __name__ == "__main__":
     bytecompare(
         "../../sma4.gba",
-        "../../sma4-disasm.gba",
+        "../sma4-disasm.gba",
         searchregions=[
             (0, 0x400000),
             ])
